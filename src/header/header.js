@@ -1,34 +1,25 @@
 import React from "react";
-import { Head, Ul, Li, Button } from './styleheader';
+import { Head, Ul, Li} from './styleheader';
+import { Link } from "react-router-dom";
 
 function Header(){
     return(
         <Head>
             Aqui é o header
             <Ul>
-                <Li>
-                    <Button>
-                        Sobre mim
-                    </Button>
+                <Li>                   
+                    <Link to="/about"> Sobre mim </Link>                    
                 </Li>
-                <Li>
-                    <Button>
-                        Contatos
-                    </Button>    
+                <Li>                 
+                   <Link to="/contact"> Contatos </Link>         
                 </Li>
-                <Li>
-                    <Button>
-                        Habilidades
-                    </Button>
+                <Li>                
+                    <Link to="/hability"> Habilidades </Link>   
                 </Li>
-                <Li>
-                    <Button>
-                        Certificados
-                    </Button>
+                <Li> 
+                    <Link to="/certificate"> Certificados </Link>  
                 </Li>
             </Ul>
-
-
         </Head>
     )
 }

@@ -1,11 +1,9 @@
 import React from 'react';
-import {Container} from './styles';
+import Rotas from './routes';
 
 function App(){
     return (
-        <Container>
-            Aqui é o principal
-        </Container>
+        <Rotas/>
     )
 }
 
