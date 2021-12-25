@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Header(){
     return(
         <Head>
-            Aqui é o header
+           <Link to="/"> Aqui é o header </Link>
             <Ul>
                 <Li>                   
                     <Link to="/about"> Sobre mim </Link>                    
