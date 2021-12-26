@@ -8,7 +8,7 @@ function Home(){
     return(
         <>
             <Container/>
-            <img src={perfil} alt="ft-de-perfil" style={{position: 'absolute', left: '45pc', top: '1pc'}}/>
+            <img src={perfil} alt="ft-de-perfil" style={{position: 'absolute', left: '65pc', top: '1pc'}}/>
             <img src={capa} alt="capa-do-projeto" style={{width: '100%'}}/>
             <Projects/>
         </>

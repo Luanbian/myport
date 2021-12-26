@@ -20,12 +20,14 @@ export const Li = styled.li`
   top: -1.5pc;
 `;
 
-export const Text = styled.a`
+export const Text = styled.button`
   color: white;
-  font-size: 20px;
-  font-family: Poppins;
+  font-size: 18px;
+  background-color: #4c71af;
+  border-radius: 18px;
+  padding: 7.5px;
+  font-family: Poppins, sans-serif;
   :hover{
-    color: #F0502A;
-    opacity: 80%;
+    cursor: pointer;
   }
 `;
