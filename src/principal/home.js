@@ -1,6 +1,6 @@
 import React from "react";
-import capa from "../img/principal/capa.png";
-import perfil from "../img/principal/ftperfil.png";
+import capa from "../styles/img/principal/capa.png";
+import perfil from "../styles/img/principal/ftperfil.png";
 import Projects from "../projects";
 import { Container } from "./homestyled";
 

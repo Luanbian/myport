@@ -23,6 +23,7 @@ export const Li = styled.li`
 export const Text = styled.a`
   color: white;
   font-size: 20px;
+  font-family: Poppins;
   :hover{
     color: #F0502A;
     opacity: 80%;

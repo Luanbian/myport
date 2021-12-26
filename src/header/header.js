@@ -1,7 +1,7 @@
 import React from "react";
 import { Head, Ul, Li, Text} from './styleheader';
 import { Link } from "react-router-dom";
-import logo from '../img/principal/luan.png';
+import logo from '../styles/img/principal/luan.png';
 
 function Header(){
     return(
