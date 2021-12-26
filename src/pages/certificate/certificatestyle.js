@@ -49,3 +49,4 @@ export const Imgprevious = styled.img`
         cursor: pointer;
     }
 `;
+
