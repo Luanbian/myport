@@ -6,3 +6,9 @@ export const Container = styled.div`
     background-color: #1882c5;
     margin-top: -15pc;
 `;
+
+export const Imgperfil = styled.img`
+    position: absolute;
+    left: 65pc;
+    top: 1pc;
+`
