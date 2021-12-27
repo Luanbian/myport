@@ -2,7 +2,6 @@ import React from "react";
 import { Head, Ul, Li, Text, Imglogo} from './styleheader';
 import { Link } from "react-router-dom";
 import logo from '../styles/img/principal/luan.png';
-
 function Header(){
     return(
         <Head>
@@ -24,7 +23,7 @@ function Header(){
                 </Li>
             </Ul>
         </Head>
-    )
+    );
 }
 
 export default Header;
