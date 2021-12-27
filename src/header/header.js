@@ -1,5 +1,5 @@
 import React from "react";
-import { Head, Ul, Li, Text} from './styleheader';
+import { Head, Ul, Li, Text, Imglogo} from './styleheader';
 import { Link } from "react-router-dom";
 import logo from '../styles/img/principal/luan.png';
 
@@ -7,9 +7,9 @@ function Header(){
     return(
         <Head>
             <Ul>
-                <Link to="/"> 
-                    <img src={logo} alt="logo"/>
-                </Link>
+                <Li>
+                    <Link to="/">  <Imglogo src={logo} alt="logo"/> </Link>
+                </Li>
                 <Li>                   
                     <Link to="/about"> <Text> Sobre mim </Text> </Link>                    
                 </Li>

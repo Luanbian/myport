@@ -31,3 +31,9 @@ export const Text = styled.button`
     cursor: pointer;
   }
 `;
+
+export const Imglogo = styled.img`
+  position:relative;
+  top:30px;
+  left:15px;
+`;
