@@ -3,28 +3,31 @@ import {Total, Button, Bg, In} from './contactstyled';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import Email from './email';
 
 function Contact(){
-    return(
-        <Total className="con-social-btns">
-            <Button>
-                <In className="bx"> <GitHubIcon fontSize="large"/> </In>
-                <Bg className="bg"></Bg>
-            </Button>
-            <Button>
-                <In className="bx"> <InstagramIcon fontSize="large"/> </In>
-                <Bg className="bg"></Bg>
-            </Button>
-            <Button>
-                <In className="bx"> <LinkedInIcon fontSize="large"/> </In>
-                <Bg className="bg"></Bg>
-            </Button>
-        </Total>
-    )
+  return(
+    <>
+    <Total className="con-social-btns">
+      <Button>
+        <In className="bx"> <GitHubIcon fontSize="large"/> </In>
+        <Bg className="bg"></Bg>
+      </Button>
+      <Button>
+        <In className="bx"> <InstagramIcon fontSize="large"/> </In>
+        <Bg className="bg"></Bg>
+      </Button>
+      <Button>
+        <In className="bx"> <LinkedInIcon fontSize="large"/> </In>
+        <Bg className="bg"></Bg>
+      </Button>
+    </Total>
+    <Email/>
+    </>
+  )
 }
 
 const btns = document.querySelectorAll('.con-social-btns button')
-
 btns.forEach((item) => {
   item.addEventListener('mousemove', (evt) => {
     const x = evt.layerX - 60
