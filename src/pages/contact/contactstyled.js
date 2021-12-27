@@ -4,7 +4,7 @@ export const Total = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #F1F3F6;
+    background: blue;
 `
 export const Button = styled.button`
     width: 150px;
@@ -15,7 +15,7 @@ export const Button = styled.button`
     border:0px;
     color:#fff;
     cursor:pointer;
-    background: transparent;
+    background: green;
     position: relative;
     transition: all .25s ease;
     :active{
@@ -27,7 +27,7 @@ export const Button = styled.button`
 export const Bg = styled.div`
     position: absolute;
     width:60px;
-    background: rbg(53,209,214);
+    background: red;
     height: 60px;
     border-radius:50px;
     pointer-events:none;
