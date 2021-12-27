@@ -1,11 +1,26 @@
 import React from "react";
-
+import {Total, Button, Bg, In} from './contactstyled';
 
 function Contact(){
     return(
-        <div>
-            Meus contatos
-        </div>
+        <Total>
+            <Button>
+                <In></In>
+                <Bg></Bg>
+            </Button>
+            <Button>
+                <In></In>
+                <Bg></Bg>
+            </Button>
+            <Button>
+                <In></In>
+                <Bg></Bg>
+            </Button>
+            <Button>
+                <In></In>
+                <Bg></Bg>
+            </Button>
+        </Total>
     )
 }
 
