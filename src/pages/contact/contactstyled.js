@@ -23,7 +23,6 @@ export const Button = styled.button`
     }
 `;
 
-
 export const Bg = styled.div`
     position: absolute;
     width:60px;
