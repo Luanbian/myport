@@ -32,7 +32,6 @@ function fadeOut(element, time) {
 function processa(element, time, initial, end) {
     if (initial === 0) {
       var increment = 2;
-        element.style.display = "block";
     } else {
         increment = -2;
     }

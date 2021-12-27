@@ -34,7 +34,6 @@ export const Imgnext = styled.img`
     background-color: black;
     position: absolute;
     left: 1500px;
-    top: 1000px;
     :hover{
         cursor: pointer;
     }
@@ -44,7 +43,6 @@ export const Imgprevious = styled.img`
     background-color: black;
     position: absolute;
     left: 400px;
-    top: 1000px;
     :hover{
         cursor: pointer;
     }

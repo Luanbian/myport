@@ -15,7 +15,6 @@ function Certificate(){
             <Imgjhcampus src={hopkins} alt="imagem-de-fundo-JH" id="jhcampus"/>
             <Imgjh src={certificadoJH} alt="certificado-da-JH" id="cerjh"/>
             <Imghar src={certificadohar} alt="certificado-de-harvard" id="cerhar"/>
-
             <Imgnext src={next} alt="proxima-foto" onClick={slider} />
             <Imgprevious src={previous} alt="foto-anterior" onClick={slider} />
         </>
