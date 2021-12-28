@@ -1,8 +1,9 @@
 import React from 'react';
-import {Card, Title, Inputname,Inputsubject, Inputenviar, Textarea, Campos} from './emailstyled';
+import {Card, Title, Inputname, Inputsubject, Inputenviar, Inputemail, Textarea, Campos} from './emailstyled';
 import SubjectIcon from '@material-ui/icons/Subject';
 import PersonIcon from '@material-ui/icons/Person';
 import TextsmsIcon from '@material-ui/icons/Textsms';
+import EmailIcon from '@material-ui/icons/Email';
 
 function Email(){
     return(
@@ -14,6 +15,8 @@ function Email(){
                 <Campos>
                 <p><PersonIcon/> Me diga seu nome</p>
                 <Inputname type="text" name="name"/>
+                <p> <EmailIcon/>Me diga o seu e-mail</p>
+                <Inputemail type="text" name="email"/>
                 <p> <SubjectIcon/> Sobre o que vamos falar?</p>
                 <Inputsubject type="text" name="subject" />
                 <p><TextsmsIcon/> Qual é a mensagem?</p>
