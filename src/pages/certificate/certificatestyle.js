@@ -12,6 +12,7 @@ export const Imgjh = styled.img`
 export const Imgharcampus = styled.img`
     marginTop: -160px;
     width: 99.9%;
+    opacity:100%
 `;
 
 export const Imgjhcampus = styled.img`
@@ -19,6 +20,7 @@ export const Imgjhcampus = styled.img`
     width: 99.9%;   
     position:absolute;
     left:0px;
+    opacity:0%;
 `;
 
 export const Imghar = styled.img`
