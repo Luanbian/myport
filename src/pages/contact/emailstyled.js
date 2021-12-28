@@ -26,6 +26,7 @@ export const Inputsubject = styled.input`
     margin: 5px;
     height: 50px;
     font-size: 20px;
+    font-family: FontAwesome;
 `;
 
 export const Textarea = styled.textarea`

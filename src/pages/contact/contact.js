@@ -38,6 +38,7 @@ btns.forEach((item) => {
     i.style.transform = `translate(${x / 4}px, ${y / 4}px)`
   })
 
+  
   item.addEventListener('mouseenter', (evt) => {
     const bg = evt.target.querySelector('.bg')
     const i = evt.target.querySelector('i.bx')
