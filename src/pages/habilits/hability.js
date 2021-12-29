@@ -3,9 +3,9 @@ import React from "react";
 
 function Hability(){
     return(
-        <div>
-            Página sobre minhas habilidades
-        </div>
+        <>
+            <h1>Aqui vao minhas habilidades</h1>
+        </>
     )
 }
 

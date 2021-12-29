@@ -6,6 +6,11 @@ const GlobalStyle = createGlobalStyle`
     *{
         font-family: sans-serif;
     }
+    canvas { 
+        width: 100%; 
+        height: 100%; 
+        border-radius: 22px;
+    }
 `;
 
 function App(){
