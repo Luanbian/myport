@@ -21,7 +21,7 @@ export const Context = styled.div`
     transform: translate(-50%, -50%);
     transform-style: preserve-3d;
     perspective: 600px;
-    transition: .6s;
+    transition: .4s;
     :hover{
         transform: rotateX(-180deg);
         margin-top: -55pc;
