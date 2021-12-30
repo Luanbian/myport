@@ -13,11 +13,34 @@ export const Context = styled.div`
     height: 400px;
     padding: 20px;
     margin: 0px;
-    margin-left: 45pc;
-    margin-top: -55pc;
+    margin-left: 72pc;
+    margin-top: -42pc;
     box-shadow: 10px 10px 12px gray;
     background-color: rgba(30,33,49,0.7);
     position: absolute;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: .6s;
+    :hover{
+        transform: rotateX(-180deg);
+        margin-top: -55pc;
+        margin-left: 45pc;
+        box-shadow: 10px -10px 12px gray;
+    }
+`;
+
+export const CardFront = styled.div`
+    backface-visibility: hidden;
+    transition: .6s;
+`;
+
+export const CardBack = styled.div`
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: .6s; 
+    color: #fff;
+    text-align: center;
 `;
 
 export const Text = styled.p`

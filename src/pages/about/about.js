@@ -1,5 +1,5 @@
 import React from "react";
-import {Imgper, Text, Context, Title, Imgfundo} from './aboutstyled';
+import {Imgper, Text, Context, CardFront, CardBack, Title, Imgfundo} from './aboutstyled';
 import imgper from '../../styles/img/about/aboutmeper.png';
 import imgfundo from '../../styles/img/about/fundo.jpg';
 
@@ -9,16 +9,20 @@ function About(){
             <Imgfundo src={imgfundo}/>
             <Imgper src={imgper} />
             <Context>
-                <Title>
-                    Sobre mim
-                </Title>
-                <Text>
-                    Lorem Lorem
-                </Text>
+                <CardFront>
+                    <Title>
+                        Sobre mim
+                    </Title>
+                    <Text>
+                        Lorem Lorem
+                    </Text>
+                </CardFront>
+                <CardBack>
+                    <h2>
+                        Desenvolvedor Full Stack
+                    </h2>
+                </CardBack>
             </Context>
-            <br></br>
-            <br></br>
-            <br></br>
             <p>e aqui em baixo as experiencias</p>
         </>
     )
