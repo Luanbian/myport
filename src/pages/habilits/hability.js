@@ -1,11 +1,17 @@
-import React from "react";
+import React, { Suspense } from "react";
 import {Wait, CardBackend, CardFrontend, CardTotal} from './styledhabilits';
+import { Canvas } from '@react-three/fiber';
+import Earth from "../../components/sphere/sphere";
 
 function Hability(){
     return(
         <>
             <Wait>
-                Aqui vai a esfera ':('
+                <Canvas>
+                    <Suspense fallback={null}>
+                        <Earth />
+                    </Suspense>
+                </Canvas>
             </Wait>
             <CardTotal>
                 <CardFrontend>
