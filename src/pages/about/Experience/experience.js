@@ -1,5 +1,5 @@
 import React from 'react';
-import {Title, ImgAgathos, CardExp, Vaga, Data, Description, Line} from './expestyled';
+import {Title, ImgAgathos, CardExp, Vaga, Data, Description, Line, All} from './expestyled';
 
 function Experience(){
     return(
@@ -7,16 +7,18 @@ function Experience(){
             <Title>
                 Experiência profissional
             </Title>
-            <ImgAgathos/>
-            <CardExp>
-                <Vaga>Programador Javascript</Vaga>
-                <Data>
-                    2021
-                    <Line/>
-                    atual
-                </Data>
-                <Description>Lorem Lorem</Description>
-            </CardExp>
+            <All>
+                <ImgAgathos/>
+                <CardExp>
+                    <Vaga>Programador Javascript</Vaga>
+                    <Data>
+                        2021
+                        <Line/>
+                        atual
+                    </Data>
+                    <Description>Descrição da vaga Lorem Lorem</Description>
+                </CardExp>
+            </All>
         </>
     )
 }
