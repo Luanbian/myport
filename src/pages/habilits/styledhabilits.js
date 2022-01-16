@@ -1,8 +1,11 @@
 import styled from 'styled-components';
 
 export const Wait = styled.div` 
-    height: 100%;
-    width: 100%;
+   position: relative;
+   width: 500px;
+   height: 500px;
+   top: -80px;
+   left: 1200px;
 `;
 
 export const CardBackend = styled.div` 

@@ -3,6 +3,7 @@ import {Wait, CardBackend, CardFrontend, CardTotal} from './styledhabilits';
 import { Canvas } from '@react-three/fiber';
 import Earth from "../../components/sphere/sphere";
 
+
 function Hability(){
     return(
         <>
