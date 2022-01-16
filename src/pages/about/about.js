@@ -1,5 +1,6 @@
 import React from "react";
 import {Imgper, Text, Context, CardFront, CardBack, Title, Imgfundo} from './aboutstyled';
+import Experience from './Experience/experience';
 import imgper from '../../styles/img/about/aboutmeper.png';
 import imgfundo from '../../styles/img/about/fundo.jpg';
 
@@ -23,7 +24,7 @@ function About(){
                     </h2>
                 </CardBack>
             </Context>
-            <p>e aqui em baixo as experiencias</p>
+            <Experience />
         </>
     )
 }
