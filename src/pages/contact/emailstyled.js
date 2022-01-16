@@ -2,16 +2,19 @@ import styled from 'styled-components';
 
 export const Card = styled.div`
     background-color: green;
-    width: 500px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 600px;
+    height: 670px;
     border-radius: 22px;
     box-shadow: 12px 12px 8px gray;
+    margin-left: 150px;
+    margin-top: -30%;
 `;
 
 export const Title = styled.h1`
     font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
 `;
 
 export const Inputname = styled.input` 
@@ -45,14 +48,16 @@ export const Textarea = styled.textarea`
 
 export const Inputenviar = styled.input` 
     margin: 5px;
+    height: 32px;
 `;
 
 export const Campos = styled.div` 
     background-color: white;
     display: flex;
     flex-direction: column;
-    height: 326px;
+    height: auto;
     border-bottom-left-radius: 22px;
     border-bottom-right-radius: 22px;
     border: solid 3px green;
+    padding: 3px;
 `;
