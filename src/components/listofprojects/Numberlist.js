@@ -1,25 +1,19 @@
 import React from "react";
-import {ProjectsImage, ProjectsText} from "../../projects/indexstyled";
+import {ProjectsImage, ProjectsAll, ProjectsText} from "../../principal/projects/indexstyled";
 
 function NumberList(props) {
-    const numbers = props.numbers;
-    const texto = props.texto;
-    const listText = texto.map((text) => 
-        <ProjectsText key={text.id}>
-            {text.text}
-        </ProjectsText>
-    )
-    const listItems = numbers.map((number) =>
-        <ProjectsImage key={number.id}>
-            {number.img}
-        </ProjectsImage>
+    const ArrayProjects = props.ArrayProjects;
+    const listItems = ArrayProjects.map((number) =>
+        <ProjectsAll key={number.id}>
+            <ProjectsImage>
+                {number.img}
+            </ProjectsImage>
+            <ProjectsText>
+                {number.text}
+            </ProjectsText>
+        </ProjectsAll>
     );
-    return ( 
-        <>
-            {listItems}
-            {listText}  
-        </>
-    );
+    return <> {listItems} </>
 }
 
 export default NumberList;

@@ -1,7 +1,7 @@
 import React from "react";
 import capa from "../styles/img/principal/capa.png";
 import perfil from "../styles/img/principal/ftperfil.png";
-import Projects from "../projects";
+import Projects from "./projects/index";
 import { Container, Imgperfil } from "./homestyled";
 
 function Home(){

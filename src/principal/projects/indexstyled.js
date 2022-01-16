@@ -17,6 +17,7 @@ export const Title = styled.div`
     white-space: nowrap;
     border-right: .15em solid green;
     margin: 0 auto;
+    margin-bottom: -140px;
     letter-spacing: .15em;
     animation: 
         ${typing} 3.5s steps(30, end) infinite,
@@ -26,14 +27,23 @@ export const Title = styled.div`
 
 export const ProjectsAll = styled.div` 
     width: 100%;
-    height: 1000px;
+    height: 100%;
     padding-top: 45px;
     padding-bottom: 50px;
+`;
+
+export const ProjectsText = styled.div` 
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: -290px;
+    padding-right: 90px;
 `;
 
 export const ProjectsImage = styled.div` 
     background-color: green;
     display: inline-block;
+    margin-top: 190px;
     width: 300px;
     height: 300px;
     margin-left: 150px;
@@ -42,14 +52,7 @@ export const ProjectsImage = styled.div`
     :hover{
         border: 10px solid #ef5a50;
         border-radius: 50%;
-        -webkit-transform: rotateZ(-360deg) scale(1.5);
-        transform: rotateZ(-360deg) scale(1.5);
+        -webkit-transform: rotateZ(-360deg) scale(1.6);
+        transform: rotateZ(-360deg) scale(1.6);
     }
-`;
-
-export const ProjectsText = styled.div` 
-    margin-left: 30%;
-    display: flex;
-    justify-content: center;
-    margin-top: -100px;
 `;
