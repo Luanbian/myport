@@ -27,7 +27,7 @@ function Hability(){
             <CardTotal>
                 <HardSkill>Hard Skills</HardSkill>
                 <CardFrontend>
-
+                    
                 </CardFrontend>
                 <CardBackend>
 
