@@ -22,3 +22,34 @@ export const Title = styled.div`
         ${typing} 3.5s steps(30, end) infinite,
         ${blinkAnimation} .5s step-end infinite;
 `;
+
+
+export const ProjectsAll = styled.div` 
+    width: 100%;
+    height: 1000px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+`;
+
+export const ProjectsImage = styled.div` 
+    background-color: green;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    transition: all .5s;
+    border: 10px solid #eeee;
+    :hover{
+        border: 10px solid #ef5a50;
+        border-radius: 50%;
+        -webkit-transform: rotateZ(-360deg) scale(1.5);
+        transform: rotateZ(-360deg) scale(1.5);
+    }
+`;
+
+export const ProjectsText = styled.div` 
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+`;

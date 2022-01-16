@@ -19,7 +19,7 @@ function About(){
                 </CardFront>
                 <CardBack>
                     <h2>
-                        Desenvolvedor Full Stack
+                        Desenvolvedor Web e Mobile
                     </h2>
                 </CardBack>
             </Context>

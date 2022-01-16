@@ -8,6 +8,7 @@ export const Head = styled.div`
 `;
 
 export const Ul = styled.ul`
+  margin-left: 100px;
   padding-left: 0px;
   text-align: init;
   padding-top: 0.2pc;
