@@ -62,17 +62,15 @@ export const CardMobile = styled.div`
    flex-direction: row;
 `;
 
-export const Frontcard = styled.div` 
+export const Hardcard = styled.div` 
+   display: flex;
    width: 65%;
    border: 5px solid red;
+   justify-content: center;
+   align-items: center;
 `;
 
-export const Backcard = styled.div` 
-   width: 65%;
-   border: 5px solid blue;
-`;
-
-export const Mobilecard = styled.div` 
-   width: 65%;
-   border: 5px solid yellow;
-`;
+export const Logos = styled.div` 
+   display: flex;
+   flex-direction: column;
+`
