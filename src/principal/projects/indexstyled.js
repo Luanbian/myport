@@ -27,7 +27,7 @@ export const Title = styled.div`
 
 export const ProjectsAll = styled.div` 
     width: 100%;
-    height: 100%;
+    height: 600px;
     padding-top: 45px;
     padding-bottom: 50px;
 `;

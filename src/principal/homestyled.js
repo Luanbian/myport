@@ -9,6 +9,6 @@ export const Container = styled.div`
 
 export const Imgperfil = styled.img`
     position: absolute;
-    left: 65pc;
+    left: 60%;
     top: 1pc;
 `

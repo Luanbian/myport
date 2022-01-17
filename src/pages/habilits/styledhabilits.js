@@ -9,11 +9,13 @@ export const Wait = styled.div`
 `;
 
 export const CardBackend = styled.div` 
-
+   display: flex;
+   flex-direction: row;
 `;
 
 export const CardFrontend = styled.div` 
-
+   display: flex;
+   flex-direction: row;
 `;
 
 export const CardTotal = styled.div` 
@@ -56,5 +58,21 @@ export const CardSoft = styled.div`
 `;
 
 export const CardMobile = styled.div` 
+   display: flex;
+   flex-direction: row;
+`;
 
+export const Frontcard = styled.div` 
+   width: 65%;
+   border: 5px solid red;
+`;
+
+export const Backcard = styled.div` 
+   width: 65%;
+   border: 5px solid blue;
+`;
+
+export const Mobilecard = styled.div` 
+   width: 65%;
+   border: 5px solid yellow;
 `;
