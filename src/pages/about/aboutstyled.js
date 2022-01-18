@@ -18,7 +18,7 @@ export const Context = styled.div`
     box-shadow: 10px 10px 12px gray;
     background-color: rgba(30,33,49,0.7);
     position: absolute;
-    transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
     transform-style: preserve-3d;
     perspective: 600px;
     transition: .4s;

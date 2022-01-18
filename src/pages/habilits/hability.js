@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import {Wait, CardBackend, CardFrontend, CardTotal, Title, Description, Card, Intro, HardSkill, SoftSkills, CardSoft, CardMobile, Hardcard, Logos} from './styledhabilits';
+import {Wait, CardBackend, CardFrontend, Title, Description, Card, Intro, HardSkill, SoftSkills, CardSoft, CardMobile, Hardcard, Logos} from './styledhabilits';
 import { Canvas } from '@react-three/fiber';
 import ImgFront from '../../styles/img/habilits/front.png';
 import ImgBack from '../../styles/img/habilits/back.png';
@@ -12,6 +12,7 @@ import javascript from '../../styles/img/habilits/javascript.png';
 import node from '../../styles/img/habilits/nodejs.png';
 import mysql from '../../styles/img/habilits/mysql.png';
 import native from '../../styles/img/habilits/react.png';
+import ImgSoft from '../../styles/img/habilits/softskills.png';
 import Earth from "../../components/sphere/sphere";
 
 function Hability(){
@@ -35,7 +36,6 @@ function Hability(){
                 </Intro>
             </Card>
 
-            <CardTotal>
                 <HardSkill>Hard Skills</HardSkill>
                 <CardFrontend>
                     <Logos>
@@ -72,9 +72,19 @@ function Hability(){
                 </CardMobile>
                 <SoftSkills>Soft Skills</SoftSkills>
                 <CardSoft>
-
+                    <Logos>
+                        <h2>Soft Skills</h2>
+                        <img src={ImgSoft} style={{width: '512px'}} alt="titulo-soft"/>
+                    </Logos>
+                    <Hardcard>
+                        <ul>
+                            <h2>Inglês fluente</h2>
+                            <h2>Trabalho em equipe</h2>
+                            <h2>Liderança</h2>
+                            <h2>Trabalho ético</h2>
+                        </ul>
+                    </Hardcard>
                 </CardSoft>
-            </CardTotal>
         </>
     )
 }

@@ -18,10 +18,6 @@ export const CardFrontend = styled.div`
    flex-direction: row;
 `;
 
-export const CardTotal = styled.div` 
-
-`;
-
 export const Title = styled.h1` 
    font-size: 60px;
    margin-top: -50px;
@@ -54,7 +50,8 @@ export const SoftSkills = styled.h1`
 `;
 
 export const CardSoft = styled.div` 
-
+   display: flex;
+   flex-direction: row;
 `;
 
 export const CardMobile = styled.div` 
@@ -73,4 +70,5 @@ export const Hardcard = styled.div`
 export const Logos = styled.div` 
    display: flex;
    flex-direction: column;
+   align-items: center;
 `
