@@ -35,56 +35,55 @@ function Hability(){
                     </Description>
                 </Intro>
             </Card>
-
-                <HardSkill>Hard Skills</HardSkill>
-                <CardFrontend>
-                    <Logos>
-                        <h2>Front-end</h2>
-                        <img src={ImgFront} alt="titulo-front"/>
-                    </Logos>
-                    <Hardcard>
-                        <img src={css} alt="css"/>
-                        <img src={git} style={{width: '96px'}} alt="git"/>
-                        <img src={html} alt="html"/>
-                        <img src={react} alt="react.js"/>
-                        <img src={javascript} alt="js"/>
-                    </Hardcard>
-                </CardFrontend>
-                <CardBackend>
-                    <Logos>
-                        <h2>Back-end</h2>
-                        <img src={ImgBack} style={{width: '512px'}} alt="titulo-back"/>
-                    </Logos>
-                    <Hardcard>
-                        <img src={node} alt="node"/>
-                        <img src={mysql} alt="db"/>
-                        <img src={git} style={{width: '96px'}} alt="git"/>
-                    </Hardcard>
-                </CardBackend>
-                <CardMobile>
-                    <Logos>
-                        <h2>Mobile</h2>
-                        <img src={ImgMobile} style={{width:'512px'}} alt="titulo-mobile"/>
-                    </Logos>
-                    <Hardcard>
-                        <img src={native} style={{width:'96px'}} alt="react-native"/>
-                    </Hardcard>
-                </CardMobile>
-                <SoftSkills>Soft Skills</SoftSkills>
-                <CardSoft>
-                    <Logos>
-                        <h2>Soft Skills</h2>
-                        <img src={ImgSoft} style={{width: '512px'}} alt="titulo-soft"/>
-                    </Logos>
-                    <Hardcard>
-                        <ul>
-                            <h2>Inglês fluente</h2>
-                            <h2>Trabalho em equipe</h2>
-                            <h2>Liderança</h2>
-                            <h2>Trabalho ético</h2>
-                        </ul>
-                    </Hardcard>
-                </CardSoft>
+            <HardSkill>Hard Skills</HardSkill>
+            <CardFrontend>
+                <Logos>
+                    <h2>Front-end</h2>
+                    <img src={ImgFront} alt="titulo-front"/>
+                </Logos>
+                <Hardcard>
+                    <img src={css} alt="css"/>
+                    <img src={git} style={{width: '96px'}} alt="git"/>
+                    <img src={html} alt="html"/>
+                    <img src={react} alt="react.js"/>
+                    <img src={javascript} alt="js"/>
+                </Hardcard>
+            </CardFrontend>
+            <CardBackend>
+                <Logos>
+                    <h2>Back-end</h2>
+                    <img src={ImgBack} style={{width: '512px'}} alt="titulo-back"/>
+                </Logos>
+                <Hardcard>
+                    <img src={node} alt="node"/>
+                    <img src={mysql} alt="db"/>
+                    <img src={git} style={{width: '96px'}} alt="git"/>
+                </Hardcard>
+            </CardBackend>
+            <CardMobile>
+                <Logos>
+                    <h2>Mobile</h2>
+                    <img src={ImgMobile} style={{width:'512px'}} alt="titulo-mobile"/>
+                </Logos>
+                <Hardcard>
+                    <img src={native} style={{width:'96px'}} alt="react-native"/>
+                </Hardcard>
+            </CardMobile>
+            <SoftSkills>Soft Skills</SoftSkills>
+            <CardSoft>
+                <Logos>
+                    <h2>Soft Skills</h2>
+                    <img src={ImgSoft} style={{width: '512px'}} alt="titulo-soft"/>
+                </Logos>
+                <Hardcard>
+                    <ul>
+                        <h2>Inglês fluente</h2>
+                        <h2>Trabalho em equipe</h2>
+                        <h2>Liderança</h2>
+                        <h2>Trabalho ético</h2>
+                    </ul>
+                </Hardcard>
+            </CardSoft>
         </>
     )
 }
