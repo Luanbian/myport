@@ -8,8 +8,11 @@ function Experience(){
                 Experiência profissional
             </Title>
             <All>
-                <ImgAgathos data-aos="fade-right"/>
+                <div data-aos="fade-right">
+                    <ImgAgathos />
+                </div>
                 <CardExp>
+                    <div data-aos="fade-left">
                     <Vaga>Programador Javascript</Vaga>
                     <Data>
                         2021
@@ -17,6 +20,7 @@ function Experience(){
                         atual
                     </Data>
                     <Description>Descrição da vaga Lorem Lorem</Description>
+                    </div>
                 </CardExp>
             </All>
         </>

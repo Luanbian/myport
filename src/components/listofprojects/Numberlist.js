@@ -4,14 +4,16 @@ import {ProjectsImage, ProjectsAll, ProjectsText} from "../../principal/projects
 function NumberList(props) {
     const ArrayProjects = props.ArrayProjects;
     const listItems = ArrayProjects.map((number) =>
-        <ProjectsAll key={number.id}>
-            <ProjectsImage>
-                {number.img}
-            </ProjectsImage>
-            <ProjectsText>
-                {number.text}
-            </ProjectsText>
-        </ProjectsAll>
+        <div data-aos="fade-up">
+            <ProjectsAll key={number.id}>
+                <ProjectsImage>
+                    {number.img}
+                </ProjectsImage>
+                <ProjectsText>
+                    {number.text}
+                </ProjectsText>
+            </ProjectsAll>
+        </div>
     );
     return <> {listItems} </>
 }

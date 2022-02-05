@@ -39,29 +39,37 @@ function Hability(){
             </Card>
             <HardSkill>Hard Skills</HardSkill>
             <CardFrontend>
-                <Logos>
-                    <h2>Front-end</h2>
-                    <img src={ImgFront} alt="titulo-front"/>
-                </Logos>
+                <div data-aos="fade-up-right">
+                    <Logos>
+                        <h2>Front-end</h2>
+                        <img src={ImgFront} alt="titulo-front"/>
+                    </Logos>
+                </div>
                 <Hardcard>
-                    <Imagehab src={css} alt="css"/>
-                    <Imagehab src={git} alt="git"/>
-                    <Imagehab src={html} alt="html"/>
-                    <Imagehab src={react} alt="react.js"/>
-                    <Imagehab src={javascript} alt="js"/>
-                    <Imagehab src={typescript} alt="ts"/>
+                    <div data-aos="flip-left">
+                        <Imagehab src={css} alt="css"/>
+                        <Imagehab src={git} alt="git"/>
+                        <Imagehab src={html} alt="html"/>
+                        <Imagehab src={react} alt="react.js"/>
+                        <Imagehab src={javascript} alt="js"/>
+                        <Imagehab src={typescript} alt="ts"/>
+                    </div>
                 </Hardcard>
             </CardFrontend>
             <CardBackend>
-                <Logos>
-                    <h2>Back-end</h2>
-                    <img src={ImgBack} style={{width: '512px'}} alt="titulo-back"/>
-                </Logos>
+                <div data-aos="fade-up-left">
+                    <Logos>
+                        <h2>Back-end</h2>
+                        <img src={ImgBack} style={{width: '512px'}} alt="titulo-back"/>
+                    </Logos>
+                </div>
                 <Hardcard>
-                    <Imagehab src={node} alt="node"/>
-                    <Imagehab src={mysql} alt="db"/>
-                    <Imagehab src={git} style={{width: '96px'}} alt="git"/>
-                    <Imagehab src={mongo} alt="mongodb"/>
+                    <div data-aos="flip-right">
+                        <Imagehab src={node} alt="node"/>
+                        <Imagehab src={mysql} alt="db"/>
+                        <Imagehab src={git} style={{width: '96px'}} alt="git"/>
+                        <Imagehab src={mongo} alt="mongodb"/>
+                    </div>
                 </Hardcard>
             </CardBackend>
             <CardMobile>

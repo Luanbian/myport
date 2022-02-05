@@ -8,26 +8,26 @@ import Email from './email';
 function Contact(){
   return(
     <>
-    <Total>
-      <SocialMedia>
+      <Total>
+        <SocialMedia>
+          <Button>
+            <In><GitHubIcon fontSize="large"/></In>
+          </Button>
+          <Social>/Luanbian</Social>
+        </SocialMedia>
+        <SocialMedia>
+          <Button>
+            <In><InstagramIcon fontSize="large"/></In>
+          </Button>
+          <Social>@bianchiniluan</Social>
+        </SocialMedia>
+        <SocialMedia>
         <Button>
-          <In><GitHubIcon fontSize="large"/></In>
+          <In><LinkedInIcon fontSize="large"/></In>
         </Button>
-        <Social>/Luanbian</Social>
-      </SocialMedia>
-      <SocialMedia>
-        <Button>
-          <In><InstagramIcon fontSize="large"/></In>
-        </Button>
-        <Social>@bianchiniluan</Social>
-      </SocialMedia>
-      <SocialMedia>
-      <Button>
-        <In><LinkedInIcon fontSize="large"/></In>
-      </Button>
-      <Social>/Luan-Almeida</Social>
-      </SocialMedia>
-    </Total>
+        <Social>/Luan-Almeida</Social>
+        </SocialMedia>
+      </Total>
     <Email/>
     </>
   )

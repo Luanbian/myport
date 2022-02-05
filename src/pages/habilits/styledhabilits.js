@@ -74,5 +74,5 @@ export const Logos = styled.div`
 
 export const Imagehab = styled.img` 
    width: 140px;
-   padding: 30px
+   padding: 20px
 `;
