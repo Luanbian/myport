@@ -73,28 +73,36 @@ function Hability(){
                 </Hardcard>
             </CardBackend>
             <CardMobile>
-                <Logos>
-                    <h2>Mobile</h2>
-                    <img src={ImgMobile} style={{width:'512px'}} alt="titulo-mobile"/>
-                </Logos>
+                <div data-aos="flip-up">
+                    <Logos>
+                        <h2>Mobile</h2>
+                        <img src={ImgMobile} style={{width:'512px'}} alt="titulo-mobile"/>
+                    </Logos>
+                </div>
                 <Hardcard>
-                    <Imagehab src={native} alt="react-native"/>
-                    <Imagehab src = {typescript} alt="types"/>
+                    <div data-aos="flip-down">
+                        <Imagehab src={native} alt="react-native"/>
+                        <Imagehab src = {typescript} alt="types"/>
+                    </div>
                 </Hardcard>
             </CardMobile>
             <SoftSkills>Soft Skills</SoftSkills>
             <CardSoft>
-                <Logos>
-                    <h2>Soft Skills</h2>
-                    <img src={ImgSoft} style={{width: '512px'}} alt="titulo-soft"/>
-                </Logos>
+                <div data-aos="zoom-out-up">
+                    <Logos>
+                        <h2>Soft Skills</h2>
+                        <img src={ImgSoft} style={{width: '512px'}} alt="titulo-soft"/>
+                    </Logos>
+                </div>
                 <Hardcard>
-                    <ul>
-                        <h2>Inglês fluente</h2>
-                        <h2>Trabalho em equipe</h2>
-                        <h2>Liderança</h2>
-                        <h2>Trabalho ético</h2>
-                    </ul>
+                    <div data-aos="zoom-out-down">
+                        <ul>
+                            <h2>Inglês fluente</h2>
+                            <h2>Trabalho em equipe</h2>
+                            <h2>Liderança</h2>
+                            <h2>Trabalho ético</h2>
+                        </ul>
+                    </div> 
                 </Hardcard>
             </CardSoft>
         </>
