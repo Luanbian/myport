@@ -11,10 +11,10 @@ export const All = styled.div`
     flex-direction: row;
 `;
 
-export const ImgAgathos = styled.div` 
+export const ImgAgathos = styled.img` 
     width: 420px;
     height: 420px;
-    background-color: red;
+    border-radius:22px;
     margin-left: 170px;
     margin-bottom: 45px;
 `;
@@ -25,18 +25,20 @@ export const CardExp = styled.div`
 `;
 
 export const Vaga = styled.h2` 
-
+    font-size: 36px;
 `;
 
 export const Data = styled.p` 
     display: flex;
-    padding: 10px;
+    font-size: 26px;
+    padding: 15px;
 `;
 
 export const Line = styled.div` 
     width: 150px;
     height: 1px;
     background-color: black;
+    margin:15px;
 `;
 
 export const Description = styled.p` 
