@@ -12,7 +12,7 @@ const blinkAnimation = keyframes`
 
 export const Title = styled.div`
     color: black;
-    font-size: 30px;
+    font-size: 45px;
     overflow: hidden;
     white-space: nowrap;
     border-right: .15em solid green;
@@ -21,15 +21,15 @@ export const Title = styled.div`
     letter-spacing: .15em;
     animation: 
         ${typing} 3.5s steps(30, end) infinite,
-        ${blinkAnimation} .5s step-end infinite;
+        ${blinkAnimation} .5s step-end infinite
+    ;
 `;
-
 
 export const ProjectsAll = styled.div` 
     width: 100%;
     height: 600px;
-    padding-top: 45px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 `;
 
 export const ProjectsText = styled.div` 
@@ -40,19 +40,18 @@ export const ProjectsText = styled.div`
     padding-right: 90px;
 `;
 
-export const ProjectsImage = styled.div` 
-    background-color: green;
+export const ProjectsImage = styled.img` 
     display: inline-block;
     margin-top: 190px;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     margin-left: 150px;
     transition: all .5s;
     border: 10px solid #eeee;
     :hover{
         border: 10px solid #ef5a50;
         border-radius: 50%;
-        -webkit-transform: rotateZ(-360deg) scale(1.6);
-        transform: rotateZ(-360deg) scale(1.6);
+        -webkit-transform: rotateZ(-360deg) scale(1.2);
+        transform: rotateZ(-360deg) scale(1.2);
     }
 `;

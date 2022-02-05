@@ -6,9 +6,7 @@ function NumberList(props) {
     const listItems = ArrayProjects.map((number) =>
         <div data-aos="fade-up">
             <ProjectsAll key={number.id}>
-                <ProjectsImage>
-                    {number.img}
-                </ProjectsImage>
+                <ProjectsImage src={number.img} alt="imagens dos projetos"/>
                 <ProjectsText>
                     {number.text}
                 </ProjectsText>

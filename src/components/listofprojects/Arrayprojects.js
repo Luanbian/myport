@@ -1,16 +1,22 @@
 import React from "react";
-import perfil from "../../styles/img/principal/ftperfil.png";
-import imgper from '../../styles/img/about/aboutmeper.png';
+import restaurant from '../../styles/img/projects/restaurant.jpeg';
+import youtube from '../../styles/img/projects/youtube-page.jpg';
+import slu from '../../styles/img/projects/slu.jpeg';
 
 export const ArrayProjects = [
     {
         id: 1, 
-        img : <img src={perfil} style={{width:'150px'}} alt="img teste"/>,
-        text: <h1>Lorem Lorem</h1>
+        img : youtube,
+        text: <p style={{fontSize: '30px'}}>Lorem Lorem</p>
     },
     {
         id: 2,
-        img:  <img src={imgper} style={{width:'150px'}} alt="img teste"/>,
-        text: <h1>lorem lorem 2</h1>
+        img: restaurant,
+        text: <p style={{fontSize: '30px'}}>lorem lorem 2</p>
+    },
+    {
+        id: 3,
+        img: slu, 
+        text: <p style={{fontSize: '30px'}}>Lorem lorem 3</p>
     }
 ];
