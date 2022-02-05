@@ -11,20 +11,22 @@ function About(){
             <Imgfundo src={imgfundo}/>
             <Imgper src={imgper} />
             <Context>
-                <CardFront>
-                    <Title>
-                        Sobre mim
-                    </Title>
-                    <Text>
-                        Lorem Lorem
-                    </Text>
-                </CardFront>
-                <CardBack>
-                    <h2>
-                        Desenvolvedor Web e Mobile
-                    </h2>
-                </CardBack>
+                    <CardFront>
+                        <Title>
+                            Sobre mim
+                        </Title>
+                        <Text>
+                            Lorem Lorem
+                        </Text>
+                    </CardFront>
+                    <CardBack>
+                        <h2>
+                            Desenvolvedor Web e Mobile
+                        </h2>
+                    </CardBack>
             </Context>
+
+
             <Tittle>
                 Experiência profissional
             </Tittle>
