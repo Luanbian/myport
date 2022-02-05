@@ -8,7 +8,7 @@ function Experience(){
                 Experiência profissional
             </Title>
             <All>
-                <ImgAgathos/>
+                <ImgAgathos data-aos="fade-right"/>
                 <CardExp>
                     <Vaga>Programador Javascript</Vaga>
                     <Data>
