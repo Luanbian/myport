@@ -1,6 +1,6 @@
 import React from "react";
 import {Imgper, Text, Context, CardFront, CardBack, Title, Imgfundo} from './aboutstyled';
-import Experience from './Experience/experience';
+import {Tittle, ImgAgathos, CardExp, Vaga, Data, Description, Line, All} from './expestyled';
 import imgper from '../../styles/img/about/aboutmeper.png';
 import imgfundo from '../../styles/img/about/fundo.jpg';
 
@@ -24,7 +24,25 @@ function About(){
                     </h2>
                 </CardBack>
             </Context>
-            <Experience />
+            <Tittle>
+                Experiência profissional
+            </Tittle>
+            <All>
+                <div data-aos="fade-right">
+                    <ImgAgathos />
+                </div>
+                <CardExp>
+                    <div data-aos="fade-left">
+                    <Vaga>Programador Javascript</Vaga>
+                    <Data>
+                        2021
+                        <Line/>
+                        atual
+                    </Data>
+                    <Description>Descrição da vaga Lorem Lorem</Description>
+                    </div>
+                </CardExp>
+            </All>
         </>
     )
 }
