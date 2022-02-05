@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import {Wait, CardBackend, CardFrontend, Title, Description, Card, Intro, HardSkill, SoftSkills, CardSoft, CardMobile, Hardcard, Logos} from './styledhabilits';
+import {Wait, CardBackend, CardFrontend, Title, Description, Card, Intro, HardSkill, SoftSkills, CardSoft, CardMobile, Hardcard, Logos, Imagehab} from './styledhabilits';
 import { Canvas } from '@react-three/fiber';
 import ImgFront from '../../styles/img/habilits/front.png';
 import ImgBack from '../../styles/img/habilits/back.png';
@@ -9,8 +9,10 @@ import git from '../../styles/img/habilits/git.png';
 import html from '../../styles/img/habilits/html.png';
 import react from '../../styles/img/habilits/reactjs.png';
 import javascript from '../../styles/img/habilits/javascript.png';
+import typescript from '../../styles/img/habilits/typescript.png';
 import node from '../../styles/img/habilits/nodejs.png';
 import mysql from '../../styles/img/habilits/mysql.png';
+import mongo from '../../styles/img/habilits/mongodb.png';
 import native from '../../styles/img/habilits/react.png';
 import ImgSoft from '../../styles/img/habilits/softskills.png';
 import Earth from "../../components/sphere/sphere";
@@ -42,11 +44,12 @@ function Hability(){
                     <img src={ImgFront} alt="titulo-front"/>
                 </Logos>
                 <Hardcard>
-                    <img src={css} alt="css"/>
-                    <img src={git} style={{width: '96px'}} alt="git"/>
-                    <img src={html} alt="html"/>
-                    <img src={react} alt="react.js"/>
-                    <img src={javascript} alt="js"/>
+                    <Imagehab src={css} alt="css"/>
+                    <Imagehab src={git} alt="git"/>
+                    <Imagehab src={html} alt="html"/>
+                    <Imagehab src={react} alt="react.js"/>
+                    <Imagehab src={javascript} alt="js"/>
+                    <Imagehab src={typescript} alt="ts"/>
                 </Hardcard>
             </CardFrontend>
             <CardBackend>
@@ -55,9 +58,10 @@ function Hability(){
                     <img src={ImgBack} style={{width: '512px'}} alt="titulo-back"/>
                 </Logos>
                 <Hardcard>
-                    <img src={node} alt="node"/>
-                    <img src={mysql} alt="db"/>
-                    <img src={git} style={{width: '96px'}} alt="git"/>
+                    <Imagehab src={node} alt="node"/>
+                    <Imagehab src={mysql} alt="db"/>
+                    <Imagehab src={git} style={{width: '96px'}} alt="git"/>
+                    <Imagehab src={mongo} alt="mongodb"/>
                 </Hardcard>
             </CardBackend>
             <CardMobile>
@@ -66,7 +70,8 @@ function Hability(){
                     <img src={ImgMobile} style={{width:'512px'}} alt="titulo-mobile"/>
                 </Logos>
                 <Hardcard>
-                    <img src={native} style={{width:'96px'}} alt="react-native"/>
+                    <Imagehab src={native} alt="react-native"/>
+                    <Imagehab src = {typescript} alt="types"/>
                 </Hardcard>
             </CardMobile>
             <SoftSkills>Soft Skills</SoftSkills>

@@ -62,7 +62,6 @@ export const CardMobile = styled.div`
 export const Hardcard = styled.div` 
    display: flex;
    width: 65%;
-   border: 5px solid red;
    justify-content: center;
    align-items: center;
 `;
@@ -71,4 +70,9 @@ export const Logos = styled.div`
    display: flex;
    flex-direction: column;
    align-items: center;
-`
+`;
+
+export const Imagehab = styled.img` 
+   width: 140px;
+   padding: 30px
+`;
