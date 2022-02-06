@@ -1,11 +1,8 @@
 import styled from 'styled-components';
 
 export const Card = styled.div`
-    background-color: green;
     width: 600px;
     height: 670px;
-    border-radius: 22px;
-    box-shadow: 12px 12px 8px gray;
     margin-left: 150px;
     margin-top: -30%;
 `;
@@ -14,7 +11,7 @@ export const Title = styled.h1`
     font-size: 40px;
     display: flex;
     justify-content: center;
-    color: white;
+    color: black;
 `;
 
 export const Inputname = styled.input` 
