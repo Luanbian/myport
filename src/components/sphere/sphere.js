@@ -2,7 +2,7 @@ import { useLoader, useFrame } from "@react-three/fiber";
 import React, { useRef }from "react";
 import { TextureLoader } from "three";
 import { OrbitControls } from "@react-three/drei";
-import Texture from '../../styles/img/habilits/habilitesround.png';
+import Texture from '../../styles/img/habilits/texturehab.png';
 
 function Earth(props){
     const [textureMap] = useLoader(TextureLoader, [Texture])
