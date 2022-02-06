@@ -100,7 +100,6 @@ function Hability(){
                             <h2>Inglês fluente</h2>
                             <h2>Trabalho em equipe</h2>
                             <h2>Liderança</h2>
-                            <h2>Trabalho ético</h2>
                         </ul>
                     </div> 
                 </Hardcard>

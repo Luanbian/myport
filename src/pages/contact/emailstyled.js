@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Card = styled.div`
     width: 600px;
     height: 670px;
-    margin-left: 150px;
+    margin-left: 15%;
     margin-top: -30%;
 `;
 
@@ -28,13 +28,6 @@ export const Inputemail = styled.input`
     font-size: 20px;
 `;
 
-export const Inputsubject = styled.input` 
-    border-radius: 5px;
-    margin: 5px;
-    height: 50px;
-    font-size: 20px;
-`;
-
 export const Textarea = styled.textarea`
     border-radius: 5px;
     margin: 5px;
@@ -49,12 +42,10 @@ export const Inputenviar = styled.input`
 `;
 
 export const Campos = styled.div` 
-    background-color: white;
     display: flex;
     flex-direction: column;
     height: auto;
     border-bottom-left-radius: 22px;
     border-bottom-right-radius: 22px;
-    border: solid 3px green;
     padding: 3px;
 `;

@@ -5,9 +5,8 @@ export const Total = styled.div`
     flex-direction: column;
     align-items: flex-start;
     margin-top: -110px;
-    padding-right: 720px;
     padding-top: 90px;
-    margin-left: 46%;
+    margin-left: 65%;
 `;
 
 export const Social = styled.p` 
