@@ -1,6 +1,7 @@
 import React from 'react';
 import Rotas from './routes';
 import { createGlobalStyle } from 'styled-components';
+import AOS from 'aos';
 
 const GlobalStyle = createGlobalStyle`
     *{
@@ -14,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 function App(){
+    AOS.init();
     return (
         <>
             <Rotas/>
