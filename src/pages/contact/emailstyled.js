@@ -37,8 +37,13 @@ export const Textarea = styled.textarea`
 `;
 
 export const Inputenviar = styled.input` 
-    margin: 5px;
-    height: 32px;
+    margin: 10px;
+    height: 60px;
+    width: 120px;
+    display: flex;
+    margin-left: auto;
+    background-color: #1882c5;
+    color: white;
 `;
 
 export const Campos = styled.div` 

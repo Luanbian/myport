@@ -50,7 +50,6 @@ export const Title = styled.h1`
 `;
 
 export const Imgfundo = styled.img`
-    width: 100%;
-    height:100%;
     margin-top:-18pc;
+    width: 100%;
 `;

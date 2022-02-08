@@ -25,8 +25,6 @@ function About(){
                         </h2>
                     </CardBack>
             </Context>
-
-
             <Tittle>
                 Experiência profissional
             </Tittle>
