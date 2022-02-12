@@ -1,14 +1,16 @@
 import React from "react";
-import {Total, Button, In, SocialMedia} from './contactstyled';
+import {IconsMedia, Button, In, SocialMedia, Total} from './contactstyled';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import contactus from '../../styles/img/contact/contant.svg';
 //import Email from './email';
 
 function Contact(){
   return(
-    <>
-      <Total>
+    <Total>
+      <img src={contactus} alt="undraw-contact-us" />
+      <IconsMedia>
         <SocialMedia>
           <Button>
             <In><GitHubIcon fontSize="large"/></In>
@@ -24,9 +26,9 @@ function Contact(){
           <In><LinkedInIcon fontSize="large"/></In>
         </Button>
         </SocialMedia>
-      </Total>
+      </IconsMedia>
       {/*<Email/>*/}
-    </>
+    </Total>
   )
 }
 
