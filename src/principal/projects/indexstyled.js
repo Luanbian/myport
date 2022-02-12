@@ -11,7 +11,7 @@ const blinkAnimation = keyframes`
 `;
 
 export const Title = styled.div`
-    color: black;
+    color: rgb(53, 51, 51);
     font-family: 'PoppinsBold';
     font-size: 45px;
     overflow: hidden;

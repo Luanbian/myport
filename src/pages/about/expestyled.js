@@ -6,6 +6,7 @@ export const Tittle = styled.h1`
     margin-bottom: 80px;
     font-family: 'PoppinsBold';
     text-decoration: underline;
+    color: rgb(53, 51, 51);
 `;
 
 export const All = styled.div` 

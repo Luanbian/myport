@@ -13,11 +13,11 @@ function Email(){
                     <Title>Me envie um e-mail</Title>
 
                     <Campos>
-                        <PersonIcon/>
+                        <PersonIcon style={{color: 'rgb(65, 63, 63)'}}/>
                         <Inputname type="text" name="name" placeholder='Me diga seu nome'/>
-                        <EmailIcon/>
+                        <EmailIcon style={{color: 'rgb(65, 63, 63)'}}/>
                         <Inputemail type="text" name="email" placeholder='Me diga o seu e-mail'/>
-                        <TextsmsIcon/>
+                        <TextsmsIcon style={{color: 'rgb(65, 63, 63)'}}/>
                         <Textarea name="message" placeholder='Me deixe um a mensagem' rows={8}></Textarea>
                         <Inputenviar type="submit" value="Enviar" />
                     </Campos>

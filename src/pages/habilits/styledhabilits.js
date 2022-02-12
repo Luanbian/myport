@@ -26,6 +26,7 @@ export const Title = styled.h1`
    margin-left: -90px;
    font-family: 'PoppinsBold';
    text-decoration: underline;
+   color: rgb(65, 63, 63);
 `;
 
 export const Description = styled.p` 
@@ -47,6 +48,7 @@ export const HardSkill = styled.h1`
    display: flex;
    justify-content: center;
    font-family: 'PoppinsBold';
+   color: rgb(65, 63, 63);
 `;
 
 export const SoftSkills = styled.h1` 
@@ -54,6 +56,7 @@ export const SoftSkills = styled.h1`
    display: flex;
    justify-content: center;
    font-family: 'PoppinsBold';
+   color: rgb(65, 63, 63);
 `;
 
 export const CardSoft = styled.div` 

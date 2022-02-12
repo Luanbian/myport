@@ -11,7 +11,7 @@ export const Title = styled.h1`
     font-size: 40px;
     display: flex;
     justify-content: center;
-    color: black;
+    color: rgb(65, 63, 63);
     font-family: 'PoppinsBold';
     text-decoration: underline;
 `;

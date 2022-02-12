@@ -59,7 +59,7 @@ function Hability(){
             <CardBackend>
                 <div data-aos="fade-up-left">
                     <Logos>
-                        <h2 style={{fontFamily:'PoppinsRegular'}}>Back-end</h2>
+                        <h2 style={{fontFamily:'PoppinsRegular', color:'white'}}>Back-end</h2>
                         <img src={ImgBack} style={{width: '512px'}} alt="titulo-back"/>
                     </Logos>
                 </div>
