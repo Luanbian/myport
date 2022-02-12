@@ -1,7 +1,8 @@
 import React from "react";
 import {ProjectsImage, ProjectsAll, ProjectsText} from "../../principal/projects/indexstyled";
+import Slider from "react-slick";
 
-function NumberList(props) {
+export default function NumberList(props) {
     const ArrayProjects = props.ArrayProjects;
     const listItems = ArrayProjects.map((number) =>
         <div data-aos="fade-up">
@@ -13,7 +14,17 @@ function NumberList(props) {
             </ProjectsAll>
         </div>
     );
-    return <> {listItems} </>
-}
 
-export default NumberList;
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+  return (
+    <Slider {...settings} style={{width: '90%'}}>
+        {listItems}
+    </Slider>
+  );
+}

@@ -46,12 +46,6 @@ export const ProjectsImage = styled.img`
     width: 400px;
     height: 400px;
     margin-left: 150px;
-    transition: all .5s;
-    border: 10px solid #eeee;
-    :hover{
-        border: 10px solid #ef5a50;
-        border-radius: 50%;
-        -webkit-transform: rotateZ(-360deg) scale(1.2);
-        transform: rotateZ(-360deg) scale(1.2);
-    }
+    border: solid #ef5a50;
+    border-radius: 22px;
 `;
