@@ -2,20 +2,15 @@ import styled from 'styled-components';
 
 export const Total = styled.div`
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: -110px;
-    padding-top: 90px;
-    margin-left: 65%;
-`;
-
-export const Social = styled.p` 
-  font-size: 35px;
+    flex-direction: row;
+    float: right;
+    margin-top: 20%;
+    margin-right: 22%;
 `;
 
 export const Button = styled.button`
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
     margin: 15px;
     background-color: red;
     border-radius: 22px;
@@ -34,5 +29,4 @@ export const In = styled.i`
 
 export const SocialMedia = styled.div` 
     display: flex;
-    width: 600px;
 `;
