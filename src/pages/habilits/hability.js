@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import {Wait, CardBackend, CardFrontend, Title, Description, Card, Intro, HardSkill, SoftSkills, CardSoft, CardMobile, Hardcard, Logos, Imagehab} from './styledhabilits';
+import {Wait, CardBackend, CardFrontend, Title, Description, Card, Intro, HardSkill, SoftSkills, CardSoft, CardMobile, Hardcard, Logos, Imagehab, Imagehaback} from './styledhabilits';
 import { Canvas } from '@react-three/fiber';
 import ImgFront from '../../styles/img/habilits/front.png';
 import ImgBack from '../../styles/img/habilits/back.png';
@@ -65,10 +65,10 @@ function Hability(){
                 </div>
                 <Hardcard>
                     <div data-aos="flip-right">
-                        <Imagehab src={node} alt="node"/>
-                        <Imagehab src={mysql} alt="db"/>
-                        <Imagehab src={git} style={{width: '96px'}} alt="git"/>
-                        <Imagehab src={mongo} alt="mongodb"/>
+                        <Imagehaback src={node} alt="node"/>
+                        <Imagehaback src={mysql} alt="db"/>
+                        <Imagehab src={git}   alt="git"/>
+                        <Imagehaback src={mongo} alt="mongodb"/>
                     </div>
                 </Hardcard>
             </CardBackend>

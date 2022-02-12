@@ -11,6 +11,7 @@ export const Wait = styled.div`
 export const CardBackend = styled.div` 
    display: flex;
    flex-direction: row;
+   background-color: #1882c5;
 `;
 
 export const CardFrontend = styled.div` 
@@ -74,5 +75,10 @@ export const Logos = styled.div`
 
 export const Imagehab = styled.img` 
    width: 140px;
+   padding: 20px
+`;
+
+export const Imagehaback = styled.img` 
+   width: 160px;
    padding: 20px
 `;
