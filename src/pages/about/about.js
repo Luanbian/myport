@@ -20,9 +20,9 @@ function About(){
                         </Text>
                     </CardFront>
                     <CardBack>
-                        <h2>
+                        <Text>
                             Desenvolvedor Web e Mobile
-                        </h2>
+                        </Text>
                     </CardBack>
             </Context>
             <Tittle>

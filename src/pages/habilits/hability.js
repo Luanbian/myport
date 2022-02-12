@@ -41,7 +41,7 @@ function Hability(){
             <CardFrontend>
                 <div data-aos="fade-up-right">
                     <Logos>
-                        <h2>Front-end</h2>
+                        <h2 style={{fontFamily:'PoppinsRegular'}}>Front-end</h2>
                         <img src={ImgFront} alt="titulo-front"/>
                     </Logos>
                 </div>
@@ -59,15 +59,15 @@ function Hability(){
             <CardBackend>
                 <div data-aos="fade-up-left">
                     <Logos>
-                        <h2>Back-end</h2>
+                        <h2 style={{fontFamily:'PoppinsRegular'}}>Back-end</h2>
                         <img src={ImgBack} style={{width: '512px'}} alt="titulo-back"/>
                     </Logos>
                 </div>
                 <Hardcard>
                     <div data-aos="flip-right">
-                        <Imagehaback src={node} alt="node"/>
+                        <Imagehaback src={node}  alt="node"/>
                         <Imagehaback src={mysql} alt="db"/>
-                        <Imagehab src={git}   alt="git"/>
+                        <Imagehab    src={git}   alt="git"/>
                         <Imagehaback src={mongo} alt="mongodb"/>
                     </div>
                 </Hardcard>
@@ -75,7 +75,7 @@ function Hability(){
             <CardMobile>
                 <div data-aos="flip-up">
                     <Logos>
-                        <h2>Mobile</h2>
+                        <h2 style={{fontFamily:'PoppinsRegular'}}>Mobile</h2>
                         <img src={ImgMobile} style={{width:'512px'}} alt="titulo-mobile"/>
                     </Logos>
                 </div>
@@ -90,7 +90,6 @@ function Hability(){
             <CardSoft>
                 <div data-aos="zoom-out-up">
                     <Logos>
-                        <h2>Soft Skills</h2>
                         <img src={ImgSoft} style={{width: '512px'}} alt="titulo-soft"/>
                     </Logos>
                 </div>

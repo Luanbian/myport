@@ -5,19 +5,22 @@ export const Imgjh = styled.img`
     height: 650px;
     position: absolute;
     left: 34pc;
-    marginTop: -7pc;
-    borderRadius: 10px;
+    margin-top: -7pc;
+    border-radius: 10px;
 `;
 
 export const Imgharcampus = styled.img`
-    marginTop: -160px;
+    margin-top: -160px;
     width: 99.9%;
+    position: absolute;
+    height: 86%;
     opacity:100%
 `;
 
 export const Imgjhcampus = styled.img`
-    marginTop: -160px;
+    margin-top: -160px;
     width: 99.9%;   
+    height: 86%;
     position:absolute;
     left:0px;
     opacity:0%;
@@ -28,13 +31,13 @@ export const Imghar = styled.img`
     height: 650px;
     position: absolute;
     left: 34pc;
-    marginTop: -7pc;
-    borderRadius: 10px;  
+    margin-top: -7pc;
+    border-radius: 10px;  
 `;
 
 export const Imgnext = styled.img`
-    background-color: black;
     position: absolute;
+    height: 200px;
     left: 1500px;
     :hover{
         cursor: pointer;
@@ -42,11 +45,10 @@ export const Imgnext = styled.img`
 `;
 
 export const Imgprevious = styled.img`
-    background-color: black;
     position: absolute;
-    left: 400px;
+    height: 200px;
+    left: 200px;
     :hover{
         cursor: pointer;
     }
 `;
-

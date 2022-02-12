@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/*
 body::-webkit-scrollbar{
   width: 20px;
 }
@@ -19,12 +19,7 @@ body::-webkit-scrollbar{
   background: #2e9dd8;
   border-radius: 8px;
 }
-
+*/
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
-}
-
-@font-face{
-  font-family: 'Poppins';
-  src: local('Poppins'), url(./styles/fonts/Poppins-Thin.ttf);
 }

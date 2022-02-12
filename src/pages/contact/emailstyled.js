@@ -12,6 +12,8 @@ export const Title = styled.h1`
     display: flex;
     justify-content: center;
     color: black;
+    font-family: 'PoppinsBold';
+    text-decoration: underline;
 `;
 
 export const Inputname = styled.input` 
@@ -46,6 +48,7 @@ export const Inputenviar = styled.input`
     background-color: #1882c5;
     color: white;
     border-radius: 15px;
+    font-family: 'PoppinsRegular';
     font-size: large;
     :hover{
         cursor: pointer;

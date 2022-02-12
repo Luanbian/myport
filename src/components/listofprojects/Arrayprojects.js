@@ -7,16 +7,16 @@ export const ArrayProjects = [
     {
         id: 1, 
         img : youtube,
-        text: <p style={{fontSize: '30px'}}>Lorem Lorem</p>
+        text: <p style={{fontSize: '30px', fontFamily: 'PoppinsRegular'}}>Lorem Lorem</p>
     },
     {
         id: 2,
         img: restaurant,
-        text: <p style={{fontSize: '30px'}}>lorem lorem 2</p>
+        text: <p style={{fontSize: '30px', fontFamily: 'PoppinsRegular'}}>lorem lorem 2</p>
     },
     {
         id: 3,
         img: slu, 
-        text: <p style={{fontSize: '30px'}}>Lorem lorem 3</p>
+        text: <p style={{fontSize: '30px', fontFamily: 'PoppinsRegular'}}>Lorem lorem 3</p>
     }
 ];

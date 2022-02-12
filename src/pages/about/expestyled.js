@@ -4,6 +4,8 @@ export const Tittle = styled.h1`
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
+    font-family: 'PoppinsBold';
+    text-decoration: underline;
 `;
 
 export const All = styled.div` 
@@ -27,12 +29,14 @@ export const CardExp = styled.div`
 
 export const Vaga = styled.h2` 
     font-size: 36px;
+    font-family: 'PoppinsRegular';
 `;
 
 export const Data = styled.p` 
     display: flex;
     font-size: 26px;
     padding: 15px;
+    font-family: 'PoppinsRegular';
 `;
 
 export const Line = styled.div` 
@@ -43,5 +47,5 @@ export const Line = styled.div`
 `;
 
 export const Description = styled.p` 
-
+    font-family: 'PoppinsRegular';
 `;

@@ -2,6 +2,7 @@ import React from 'react';
 import Rotas from './routes';
 import { createGlobalStyle } from 'styled-components';
 import AOS from 'aos';
+import GlobalFonts from '../src/styles/fonts/fonts';
 
 const GlobalStyle = createGlobalStyle`
     *{
@@ -20,6 +21,7 @@ function App(){
         <>
             <Rotas/>
             <GlobalStyle/>
+            <GlobalFonts/>
         </>
     )
 }

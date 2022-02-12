@@ -2,7 +2,7 @@ import styled, { keyframes } from "styled-components";
 
 const typing = keyframes`
     from {width: 0}
-    to {width:20%}
+    to {width:25%}
 `;
 
 const blinkAnimation = keyframes`
@@ -12,6 +12,7 @@ const blinkAnimation = keyframes`
 
 export const Title = styled.div`
     color: black;
+    font-family: 'PoppinsBold';
     font-size: 45px;
     overflow: hidden;
     white-space: nowrap;

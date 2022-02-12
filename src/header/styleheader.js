@@ -10,7 +10,7 @@ export const Head = styled.div`
 export const Ul = styled.ul`
   margin-left: 100px;
   padding-left: 0px;
-  text-align: init;
+  text-align: initial;
   padding-top: 0.2pc;
 `;
 
@@ -24,6 +24,7 @@ export const Li = styled.li`
 export const Text = styled.button`
   color: white;
   font-size: 22px;
+  font-family: 'PoppinsRegular';
   background-color: #ef5a50;
   border-radius: 10px;
   padding: 7.5px;

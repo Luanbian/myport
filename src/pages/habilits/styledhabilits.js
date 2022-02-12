@@ -12,6 +12,7 @@ export const CardBackend = styled.div`
    display: flex;
    flex-direction: row;
    background-color: #1882c5;
+   width:99.9%;
 `;
 
 export const CardFrontend = styled.div` 
@@ -23,10 +24,13 @@ export const Title = styled.h1`
    font-size: 60px;
    margin-top: -50px;
    margin-left: -90px;
+   font-family: 'PoppinsBold';
+   text-decoration: underline;
 `;
 
 export const Description = styled.p` 
    font-size: 30px;
+   font-family: 'PoppinsRegular';
 `;
 
 export const Card = styled.div` 
@@ -42,17 +46,21 @@ export const HardSkill = styled.h1`
    font-size: 50px;
    display: flex;
    justify-content: center;
+   font-family: 'PoppinsBold';
 `;
 
 export const SoftSkills = styled.h1` 
    font-size: 50px;
    display: flex;
    justify-content: center;
+   font-family: 'PoppinsBold';
 `;
 
 export const CardSoft = styled.div` 
    display: flex;
    flex-direction: row;
+   background-color: #1882c5;
+   width: 99.9%;
 `;
 
 export const CardMobile = styled.div` 

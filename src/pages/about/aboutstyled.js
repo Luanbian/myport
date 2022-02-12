@@ -41,12 +41,14 @@ export const Context = styled.div`
 export const Text = styled.p`
     font-size: 22px;
     color: #ffff;
+    font-family: 'PoppinsRegular';
 `;
 
 export const Title = styled.h1`
     color: #ef5a50;
     font-size: 60px;
     margin: 0px;
+    font-family: 'PoppinsBold';
 `;
 
 export const Imgfundo = styled.img`
