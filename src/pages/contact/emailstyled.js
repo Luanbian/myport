@@ -47,6 +47,9 @@ export const Inputenviar = styled.input`
     color: white;
     border-radius: 15px;
     font-size: large;
+    :hover{
+        cursor: pointer;
+    }
 `;
 
 export const Campos = styled.div` 

@@ -16,20 +16,24 @@ export const Ul = styled.ul`
 
 export const Li = styled.li`
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 30px;
   position: relative;
   top: -1.5pc;
 `;
 
 export const Text = styled.button`
   color: white;
-  font-size: 18px;
-  background-color: #4c71af;
-  border-radius: 18px;
+  font-size: 22px;
+  background-color: #ef5a50;
+  border-radius: 10px;
   padding: 7.5px;
-  font-family: Poppins, sans-serif;
+  width: 120%;
+  height: 60px;
+  transition: all .5s;
   :hover{
     cursor: pointer;
+    border-radius: 20px;
+    background-color: #8f362f;
   }
 `;
 

@@ -17,6 +17,7 @@ export const ImgAgathos = styled.img`
     border-radius:22px;
     margin-left: 170px;
     margin-bottom: 45px;
+    border: #ef5a50 solid;
 `;
 
 export const CardExp = styled.div` 
