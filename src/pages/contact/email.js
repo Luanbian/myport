@@ -13,12 +13,12 @@ function Email(){
                     <Title>Me envie um e-mail</Title>
 
                     <Campos>
-                        <p><PersonIcon/> Me diga seu nome</p>
-                        <Inputname type="text" name="name"/>
-                        <p> <EmailIcon/>Me diga o seu e-mail</p>
-                        <Inputemail type="text" name="email"/>
-                        <p><TextsmsIcon/> Qual é a mensagem?</p>
-                        <Textarea name="message"></Textarea>
+                        <PersonIcon/>
+                        <Inputname type="text" name="name" placeholder='Me diga seu nome'/>
+                        <EmailIcon/>
+                        <Inputemail type="text" name="email" placeholder='Me diga o seu e-mail'/>
+                        <TextsmsIcon/>
+                        <Textarea name="message" placeholder='Me deixe um a mensagem' rows={8}></Textarea>
                         <Inputenviar type="submit" value="Enviar" />
                     </Campos>
                 </form>

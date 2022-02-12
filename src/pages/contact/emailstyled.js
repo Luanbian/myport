@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const Card = styled.div`
     width: 600px;
     height: 670px;
-    margin-left: 15%;
-    margin-top: -30%;
+    margin-left: 8%;
+    margin-top: -6%;
 `;
 
 export const Title = styled.h1`
@@ -19,6 +19,7 @@ export const Inputname = styled.input`
     margin: 5px;
     height: 50px;
     font-size: 20px;
+    margin-bottom: 40px;
 `;
 
 export const Inputemail = styled.input` 
@@ -26,6 +27,7 @@ export const Inputemail = styled.input`
     margin: 5px;
     height: 50px;
     font-size: 20px;
+    margin-bottom: 40px;
 `;
 
 export const Textarea = styled.textarea`
@@ -40,10 +42,11 @@ export const Inputenviar = styled.input`
     margin: 10px;
     height: 60px;
     width: 120px;
-    display: flex;
     margin-left: auto;
     background-color: #1882c5;
     color: white;
+    border-radius: 15px;
+    font-size: large;
 `;
 
 export const Campos = styled.div` 
@@ -52,5 +55,5 @@ export const Campos = styled.div`
     height: auto;
     border-bottom-left-radius: 22px;
     border-bottom-right-radius: 22px;
-    padding: 3px;
+    padding: 8px;
 `;
