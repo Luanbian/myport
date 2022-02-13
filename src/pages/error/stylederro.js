@@ -2,28 +2,19 @@ import styled from 'styled-components';
 
 export const Imgfundo = styled.img`
     margin-left: 22%;
+    margin-top: -150px;
+    width: 50%;
 `;
 
 export const Title = styled.h1`
-
+    font-family: 'PoppinsBold';
 `;
 
 export const Content = styled.h2`
-
-`;
-
-export const Saida = styled.h3`
-
-`;
-
-export const Clique = styled.a`
-
+    font-family: 'PoppinsRegular';
 `;
 
 export const Card = styled.div`
-    border: solid 5px red;
-    width: 700px;
-    height: 500px;
-    margin-left: 50px;
-    margin-top:-40pc;
+    margin-left: 38%;
+    margin-top:-37%;
 `;
