@@ -31,6 +31,8 @@ export const ProjectsAll = styled.div`
     height: 600px;
     padding-top: 25px;
     padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
 `;
 
 export const ProjectsText = styled.div` 

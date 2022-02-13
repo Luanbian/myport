@@ -18,5 +18,15 @@ export const ArrayProjects = [
         id: 3,
         img: slu, 
         text: <p style={{fontSize: '30px', fontFamily: 'PoppinsRegular'}}>Lorem lorem 3</p>
+    },
+    {
+        id: 4,
+        img: restaurant,
+        text: <p style={{fontSize: '30px', fontFamily: 'PoppinsRegular'}}>lorem lorem 4</p>
+    },
+    {
+        id: 5,
+        img: slu, 
+        text: <p style={{fontSize: '30px', fontFamily: 'PoppinsRegular'}}>Lorem lorem 5</p>
     }
 ];
