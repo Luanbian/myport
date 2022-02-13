@@ -7,26 +7,16 @@ export const ArrayProjects = [
     {
         id: 1, 
         img : youtube,
-        text: <p style={{fontSize: '30px', fontFamily: 'PoppinsRegular'}}>Lorem Lorem</p>
+        text: <p style={{fontSize: '25px', fontFamily: 'PoppinsRegular'}}>Um clone da interface do youtube usando React.js</p>
     },
     {
         id: 2,
         img: restaurant,
-        text: <p style={{fontSize: '30px', fontFamily: 'PoppinsRegular'}}>lorem lorem 2</p>
+        text: <p style={{fontSize: '25px', fontFamily: 'PoppinsRegular'}}>Um site para um restaurante ficticio</p>
     },
     {
         id: 3,
         img: slu, 
-        text: <p style={{fontSize: '30px', fontFamily: 'PoppinsRegular'}}>Lorem lorem 3</p>
+        text: <p style={{fontSize: '25px', fontFamily: 'PoppinsRegular'}}>Site desenvolvido para uma vaga na Saint Louis University</p>
     },
-    {
-        id: 4,
-        img: restaurant,
-        text: <p style={{fontSize: '30px', fontFamily: 'PoppinsRegular'}}>lorem lorem 4</p>
-    },
-    {
-        id: 5,
-        img: slu, 
-        text: <p style={{fontSize: '30px', fontFamily: 'PoppinsRegular'}}>Lorem lorem 5</p>
-    }
 ];

@@ -10,32 +10,18 @@ export const CardFront = styled.div`
     visibility: visible;
 `;
 
-export const CardBack = styled.div`
-    visibility: hidden;
-    color: #fff;
-    text-align: center;
-`;
-
 export const Context = styled.div`
     border: solid 1px black;
     border-radius: 12px;
     width: 800px;
-    height: 400px;
+    height: 420px;
     padding: 20px;
     margin: 0px;
     margin-left: 50pc;
-    margin-top: -55pc;
+    margin-top: -52pc;
     box-shadow: 10px 10px 12px gray;
     background-color: rgba(30,33,49,0.7);
     position: absolute;
-    :hover{
-        ${CardFront}{
-            visibility: hidden;
-        }
-        ${CardBack}{
-            visibility: visible;
-        }
-    }
 `;
 
 export const Text = styled.p`
@@ -58,5 +44,5 @@ export const Imgfundo = styled.img`
 `;
 
 export const TextB = styled.h1` 
-    margin-top: -25%;
+    color:  white;
 `;

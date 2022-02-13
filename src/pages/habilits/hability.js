@@ -24,7 +24,7 @@ function Hability(){
                 <Intro>
                     <Title> Habilidades </Title>
                     <Description>
-                        Minha Habilidades giram em torno do Javascript por ser uma linguagem muito poderosa, para o front-end eu gostomuito do react.js, para o back-end considero muito o uso do node.js e quando o assunto é mobile o react-native resolve!
+                        Minha Habilidades giram em torno do Javascript por ser uma linguagem muito poderosa, para o front-end eu gosto muito do react.js, para o back-end considero muito o uso do node.js e quando o assunto é mobile o react-native resolve!
                     </Description>
                 </Intro>
                 <Card>

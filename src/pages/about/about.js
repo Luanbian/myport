@@ -1,5 +1,5 @@
 import React from "react";
-import {Imgper, Text, Context, CardFront, CardBack, Title, Imgfundo, TextB} from './aboutstyled';
+import {Imgper, Text, Context, CardFront, Title, Imgfundo, TextB} from './aboutstyled';
 import {Tittle, ImgAgathos, CardExp, Vaga, Data, Description, Line, All} from './expestyled';
 import imgper from '../../styles/img/about/aboutmeper.png';
 import imgfundo from '../../styles/img/about/fundo.jpg';
@@ -15,16 +15,14 @@ function About(){
                         <Title>
                             Sobre mim
                         </Title>
+                        <TextB>
+                            Desenvolvedor Web e Mobile
+                        </TextB>
                         <Text>
                             Sou o Luan Almeida, tenho 20 anos e curso análise e desenvolvimento de sistemas, apaixonado por tecnologia resolvi me dedicar no desenvolvimento de Websites e aplicativos mobile. <br/>
                             Aprendi muito sobre Design e programação para ser capaz de criar um front-end muito bem feito e melhorei muito minha lógica e uso de banco de dados e APIs para fazer um back-end excelente!
                         </Text>
                     </CardFront>
-                    <CardBack>
-                        <TextB>
-                            Desenvolvedor Web e Mobile
-                        </TextB>
-                    </CardBack>
             </Context>
             <Tittle>
                 Experiência profissional

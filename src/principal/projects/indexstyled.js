@@ -31,7 +31,7 @@ export const ProjectsAll = styled.div`
     height: 600px;
     padding-top: 25px;
     padding-bottom: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
 `;
 
 export const ProjectsText = styled.div` 
