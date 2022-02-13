@@ -30,17 +30,12 @@ export const ProjectsAll = styled.div`
     width: 100%;
     height: 600px;
     padding-top: 25px;
-    padding-bottom: 25px;
-    display: flex;
-    flex-direction: row;
+    padding-bottom: 10%;
+    margin-bottom: 10%;
 `;
 
 export const ProjectsText = styled.div` 
     margin-left: 30%;
-    display: flex;
-    justify-content: center;
-    margin-top: -290px;
-    padding-right: 90px;
 `;
 
 export const ProjectsImage = styled.img` 

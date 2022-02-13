@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import {Wait, CardBackend, CardFrontend, Title, Description, Card, Intro, HardSkill, SoftSkills, CardSoft, CardMobile, Hardcard, Logos, Imagehab, Imagehaback} from './styledhabilits';
+import {Wait, CardBackend, CardFrontend, Title, Description, Card, Intro, HardSkill, SoftSkills, CardSoft, CardMobile, Hardcard, Logos, Imagehab, Imagehaback, Softhab} from './styledhabilits';
 import { Canvas } from '@react-three/fiber';
 import ImgFront from '../../styles/img/habilits/front.png';
 import ImgBack from '../../styles/img/habilits/back.png';
@@ -96,9 +96,11 @@ function Hability(){
                 <Hardcard>
                     <div data-aos="zoom-out-down">
                         <ul>
-                            <h2>Inglês fluente</h2>
-                            <h2>Trabalho em equipe</h2>
-                            <h2>Liderança</h2>
+                            <Softhab>Inglês fluente</Softhab>
+                            <Softhab>Liderança</Softhab>
+                            <Softhab>Comunicação</Softhab>
+                            <Softhab>Inteligência emocional</Softhab>
+                            <Softhab>Altruismo</Softhab>
                         </ul>
                     </div> 
                 </Hardcard>

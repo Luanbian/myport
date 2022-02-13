@@ -93,3 +93,10 @@ export const Imagehaback = styled.img`
    width: 160px;
    padding: 20px
 `;
+
+export const Softhab = styled.li` 
+   color: white;
+   padding: 10px;
+   font-family: 'PoppinsRegular';
+   font-size: 30px;
+`;

@@ -5,14 +5,12 @@ import Slider from "react-slick";
 export default function NumberList(props) {
   const ArrayProjects = props.ArrayProjects;
   const listItems = ArrayProjects.map((number) =>
-    <div data-aos="fade-up">
-      <ProjectsAll key={number.id}>
-        <ProjectsImage src={number.img} alt="imagens dos projetos"/>
-        <ProjectsText>
-          {number.text}
-        </ProjectsText>
-      </ProjectsAll>
-    </div>
+    <ProjectsAll key={number.id}>
+      <ProjectsImage src={number.img} alt="imagens dos projetos"/>
+      <ProjectsText>
+        {number.text}
+      </ProjectsText>
+    </ProjectsAll>
   );
 
   const settings = {
