@@ -25,7 +25,8 @@ export const ImgAgathos = styled.img`
 
 export const CardExp = styled.div` 
     display: inline-block;
-    margin-left: 290px;
+    margin-left: 15%;
+    margin-top: -30px;
 `;
 
 export const Vaga = styled.h2` 
@@ -49,4 +50,6 @@ export const Line = styled.div`
 
 export const Description = styled.p` 
     font-family: 'PoppinsRegular';
+    font-size: 23px;
+    width: 600px;
 `;

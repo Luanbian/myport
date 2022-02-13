@@ -4,8 +4,11 @@ export const Wait = styled.div`
    position: relative;
    width: 500px;
    height: 500px;
-   top: -80px;
-   left: 1200px;
+   margin-right: 30px;
+`;
+
+export const Topo = styled.div` 
+   display: flex;
 `;
 
 export const CardBackend = styled.div` 
@@ -23,7 +26,6 @@ export const CardFrontend = styled.div`
 export const Title = styled.h1` 
    font-size: 60px;
    margin-top: -50px;
-   margin-left: -90px;
    font-family: 'PoppinsBold';
    text-decoration: underline;
    color: rgb(65, 63, 63);
@@ -32,6 +34,8 @@ export const Title = styled.h1`
 export const Description = styled.p` 
    font-size: 30px;
    font-family: 'PoppinsRegular';
+   width: 90%;
+   text-indent: 10px;
 `;
 
 export const Card = styled.div` 
@@ -41,6 +45,7 @@ export const Card = styled.div`
 
 export const Intro = styled.div` 
    flex-direction: column;
+   margin-left: 9%;
 `;
 
 export const HardSkill = styled.h1` 

@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import {Wait, CardBackend, CardFrontend, Title, Description, Card, Intro, HardSkill, SoftSkills, CardSoft, CardMobile, Hardcard, Logos, Imagehab, Imagehaback, Softhab} from './styledhabilits';
+import {Wait, CardBackend, CardFrontend, Title, Description, Card, Intro, HardSkill, SoftSkills, CardSoft, CardMobile, Hardcard, Logos, Imagehab, Imagehaback, Softhab, Topo} from './styledhabilits';
 import { Canvas } from '@react-three/fiber';
 import ImgFront from '../../styles/img/habilits/front.png';
 import ImgBack from '../../styles/img/habilits/back.png';
@@ -20,23 +20,23 @@ import Earth from "../../components/sphere/sphere";
 function Hability(){
     return(
         <>
-            <Card>
-                <Wait>
-                    <Canvas>
-                        <Suspense fallback={null}>
-                            <Earth />
-                        </Suspense>
-                    </Canvas>
-                </Wait>
+            <Topo>
                 <Intro>
-                    <Title>
-                        Habilidades
-                    </Title>
+                    <Title> Habilidades </Title>
                     <Description>
-                        Lorem lorem 
+                        Minha Habilidades giram em torno do Javascript por ser uma linguagem muito poderosa, para o front-end eu gostomuito do react.js, para o back-end considero muito o uso do node.js e quando o assunto é mobile o react-native resolve!
                     </Description>
                 </Intro>
-            </Card>
+                <Card>
+                    <Wait>
+                        <Canvas>
+                            <Suspense fallback={null}>
+                                <Earth />
+                            </Suspense>
+                        </Canvas>
+                    </Wait>
+                </Card>
+            </Topo>
             <HardSkill>Hard Skills</HardSkill>
             <CardFrontend>
                 <div data-aos="fade-up-right">

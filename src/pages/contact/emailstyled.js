@@ -48,10 +48,12 @@ export const Inputenviar = styled.input`
     background-color: #1882c5;
     color: white;
     border-radius: 15px;
+    border: none;
     font-family: 'PoppinsRegular';
     font-size: large;
     :hover{
         cursor: pointer;
+        background-color: hsl(203, 75%, 27%);
     }
 `;
 

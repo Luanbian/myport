@@ -42,6 +42,7 @@ export const Text = styled.p`
     font-size: 22px;
     color: #ffff;
     font-family: 'PoppinsRegular';
+    text-indent: 10px;
 `;
 
 export const Title = styled.h1`
@@ -54,4 +55,8 @@ export const Title = styled.h1`
 export const Imgfundo = styled.img`
     margin-top:-18pc;
     width: 100%;
+`;
+
+export const TextB = styled.h1` 
+    margin-top: -25%;
 `;
