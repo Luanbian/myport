@@ -18,7 +18,7 @@ export const Title = styled.div`
     white-space: nowrap;
     border-right: .15em solid green;
     margin: 0 auto;
-    margin-bottom: -140px;
+    margin-bottom: -120px;
     letter-spacing: .15em;
     animation: 
         ${typing} 3.5s steps(30, end) infinite,
@@ -40,7 +40,7 @@ export const ProjectsText = styled.div`
 
 export const ProjectsImage = styled.img` 
     display: inline-block;
-    margin-top: 190px;
+    margin-top: 130px;
     width: 400px;
     height: 400px;
     margin-left: 150px;
