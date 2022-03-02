@@ -47,3 +47,5 @@ export const ProjectsImage = styled.img`
     border: solid #ef5a50;
     border-radius: 22px;
 `;
+
+export const Comp = styled.a``;
