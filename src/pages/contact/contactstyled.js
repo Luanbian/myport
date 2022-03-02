@@ -38,3 +38,5 @@ export const Total = styled.div`
     margin-top: -7%;
     margin-right: 6%;
 `;
+
+export const Comp = styled.a``;

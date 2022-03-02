@@ -1,5 +1,5 @@
 import React from "react";
-import {IconsMedia, Button, In, SocialMedia, Total} from './contactstyled';
+import {IconsMedia, Button, In, SocialMedia, Total, Comp} from './contactstyled';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -14,17 +14,23 @@ function Contact(){
         <IconsMedia>
           <SocialMedia>
             <Button>
-              <In><GitHubIcon fontSize="large"/></In>
+              <Comp href="https://github.com/Luanbian" target="_blank">
+                <In><GitHubIcon fontSize="large"/></In>
+              </Comp>
             </Button>
           </SocialMedia>
           <SocialMedia>
             <Button>
-              <In><InstagramIcon fontSize="large"/></In>
+              <Comp href="https://www.instagram.com/bianchiniluan/" target="_blank">
+                <In><InstagramIcon fontSize="large"/></In>
+              </Comp>
             </Button>
           </SocialMedia>
           <SocialMedia>
           <Button>
-            <In><LinkedInIcon fontSize="large"/></In>
+            <Comp href="https://www.linkedin.com/in/luan--almeida/" target="_blank">
+              <In><LinkedInIcon fontSize="large"/></In>
+            </Comp>
           </Button>
           </SocialMedia>
         </IconsMedia>
