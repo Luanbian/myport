@@ -7,7 +7,7 @@ function Projects(){
     return(
         <>
             <Title>
-                Meus projetos
+                Meus projetos!!
             </Title>
             <NumberList ArrayProjects={ArrayProjects}/>
         </>
