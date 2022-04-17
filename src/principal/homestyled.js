@@ -1,14 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-    width: 99.9%;
-    height:160px;
-    background-color: #1882c5;
-    margin-top: -15pc;
+export const Imgcapa = styled.img` 
+    width: 99%;
+    margin-top: -180px;
 `;
-
-export const Imgperfil = styled.img`
-    position: absolute;
-    left: 60%;
-    top: 1pc;
-`
