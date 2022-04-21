@@ -18,7 +18,7 @@ export const ImgAgathos = styled.img`
     width: 420px;
     height: 420px;
     border-radius:22px;
-    margin-left: 170px;
+    margin-left: 60px;
     margin-bottom: 45px;
     border: #ef5a50 solid;
 `;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Imgper = styled.img`
     position: absolute;
-    left:100px;
+    left:0px;
     top:180px;
 `;
 
@@ -13,12 +13,12 @@ export const CardFront = styled.div`
 export const Context = styled.div`
     border: solid 1px black;
     border-radius: 12px;
-    width: 800px;
-    height: 420px;
+    width: 650px;
+    height: 470px;
     padding: 20px;
     margin: 0px;
-    margin-left: 50pc;
-    margin-top: -52pc;
+    margin-left: 40pc;
+    margin-top: -34.5pc;
     box-shadow: 10px 10px 12px gray;
     background-color: rgba(30,33,49,0.7);
     position: absolute;
