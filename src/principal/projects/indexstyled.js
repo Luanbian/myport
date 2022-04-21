@@ -28,14 +28,17 @@ export const Title = styled.div`
 
 export const ProjectsAll = styled.div` 
     width: 100%;
-    height: 600px;
+    height: 100px;
     padding-top: 25px;
     padding-bottom: 10%;
     margin-bottom: 20%;
+    display: flex;
 `;
 
 export const ProjectsText = styled.div` 
-    margin-left: 30%;
+    margin-left: 5%;
+    margin-top: 20%;
+    padding-left: 90px;
 `;
 
 export const ProjectsImage = styled.img` 
@@ -43,7 +46,7 @@ export const ProjectsImage = styled.img`
     margin-top: 130px;
     width: 400px;
     height: 400px;
-    margin-left: 150px;
+    margin-left: 68px;
     border: solid #ef5a50;
     border-radius: 22px;
 `;
