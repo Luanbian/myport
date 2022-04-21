@@ -14,6 +14,7 @@ export const Title = styled.h1`
     color: rgb(65, 63, 63);
     font-family: 'PoppinsBold';
     text-decoration: underline;
+    margin-left: -100px;
 `;
 
 export const Inputname = styled.input` 

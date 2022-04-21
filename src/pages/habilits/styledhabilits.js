@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Wait = styled.div` 
    position: relative;
-   width: 500px;
-   height: 500px;
+   width: 400px;
+   height: 400px;
    margin-right: 30px;
 `;
 
@@ -24,7 +24,7 @@ export const CardFrontend = styled.div`
 `;
 
 export const Title = styled.h1` 
-   font-size: 60px;
+   font-size: 50px;
    margin-top: -50px;
    font-family: 'PoppinsBold';
    text-decoration: underline;
@@ -90,12 +90,12 @@ export const Logos = styled.div`
 `;
 
 export const Imagehab = styled.img` 
-   width: 140px;
+   width: 90px;
    padding: 20px
 `;
 
 export const Imagehaback = styled.img` 
-   width: 160px;
+   width: 140px;
    padding: 20px
 `;
 

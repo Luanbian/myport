@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Imgjh = styled.img`
-    width: 750px;
-    height: 650px;
+    width: 650px;
+    height: 550px;
     position: absolute;
-    left: 34pc;
-    margin-top: -7pc;
+    left: 24pc;
+    margin-top: -8pc;
     border-radius: 10px;
 `;
 
@@ -27,18 +27,18 @@ export const Imgjhcampus = styled.img`
 `;
 
 export const Imghar = styled.img`
-    width: 750px;
-    height: 650px;
+    width: 650px;
+    height: 550px;
     position: absolute;
-    left: 34pc;
-    margin-top: -7pc;
+    left: 24pc;
+    margin-top: -8pc;
     border-radius: 10px;  
 `;
 
 export const Imgnext = styled.img`
     position: absolute;
-    height: 200px;
-    left: 1500px;
+    height: 100px;
+    left: 1150px;
     :hover{
         cursor: pointer;
     }
@@ -46,8 +46,8 @@ export const Imgnext = styled.img`
 
 export const Imgprevious = styled.img`
     position: absolute;
-    height: 200px;
-    left: 200px;
+    height: 100px;
+    left: 100px;
     :hover{
         cursor: pointer;
     }
