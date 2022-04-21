@@ -3,7 +3,7 @@ import restaurant from '../../styles/img/projects/restaurant.jpeg';
 import youtube from '../../styles/img/projects/youtube-page.jpg';
 import slu from '../../styles/img/projects/slu.jpeg';
 import earth from '../../styles/img/projects/earthJob.jfif';
-import netflix from '../../styles/img/projects/netflix.jfif';
+import netflix from '../../styles/img/projects/Netflix.png';
 
 export const ArrayProjects = [
     {
