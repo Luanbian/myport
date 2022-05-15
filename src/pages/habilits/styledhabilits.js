@@ -11,18 +11,6 @@ export const Topo = styled.div`
    display: flex;
 `;
 
-export const CardBackend = styled.div` 
-   display: flex;
-   flex-direction: row;
-   background-color: #1882c5;
-   width:99.9%;
-`;
-
-export const CardFrontend = styled.div` 
-   display: flex;
-   flex-direction: row;
-`;
-
 export const Title = styled.h1` 
    font-size: 50px;
    margin-top: -50px;
@@ -48,60 +36,7 @@ export const Intro = styled.div`
    margin-left: 9%;
 `;
 
-export const HardSkill = styled.h1` 
-   font-size: 50px;
-   display: flex;
-   justify-content: center;
-   font-family: 'PoppinsBold';
-   color: rgb(65, 63, 63);
-`;
-
-export const SoftSkills = styled.h1` 
-   font-size: 50px;
-   display: flex;
-   justify-content: center;
-   font-family: 'PoppinsBold';
-   color: rgb(65, 63, 63);
-`;
-
-export const CardSoft = styled.div` 
-   display: flex;
-   flex-direction: row;
-   background-color: #1882c5;
-   width: 99.9%;
-`;
-
-export const CardMobile = styled.div` 
-   display: flex;
-   flex-direction: row;
-`;
-
-export const Hardcard = styled.div` 
-   display: flex;
-   width: 65%;
-   justify-content: center;
-   align-items: center;
-`;
-
-export const Logos = styled.div` 
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-`;
-
 export const Imagehab = styled.img` 
    width: 90px;
    padding: 20px
-`;
-
-export const Imagehaback = styled.img` 
-   width: 140px;
-   padding: 20px
-`;
-
-export const Softhab = styled.li` 
-   color: white;
-   padding: 10px;
-   font-family: 'PoppinsRegular';
-   font-size: 30px;
 `;
