@@ -2,7 +2,7 @@ import styled, { keyframes } from "styled-components";
 
 const typing = keyframes`
     from {width: 0}
-    to {width:25%}
+    to {width:40%}
 `;
 
 const blinkAnimation = keyframes`

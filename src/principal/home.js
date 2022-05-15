@@ -1,5 +1,5 @@
 import React from "react";
-import capa from "../styles/img/principal/capaprincipal.png";
+import capa from "../styles/img/principal/perfilprof.png";
 import Projects from "./projects/index";
 import {Imgcapa} from './homestyled';
 
