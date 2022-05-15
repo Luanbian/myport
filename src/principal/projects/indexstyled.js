@@ -18,7 +18,7 @@ export const Title = styled.div`
     white-space: nowrap;
     border-right: .15em solid green;
     margin: 0 auto;
-    margin-bottom: -120px;
+    margin-bottom: 0px;
     letter-spacing: .15em;
     animation: 
         ${typing} 3.5s steps(30, end) infinite,
@@ -27,28 +27,32 @@ export const Title = styled.div`
 `;
 
 export const ProjectsAll = styled.div` 
-    width: 100%;
-    height: 100px;
-    padding-top: 25px;
-    padding-bottom: 10%;
-    margin-bottom: 20%;
+    width: 80%;
+    height: 320px;
     display: flex;
+    margin: 10%;
+    border: 1px solid #ef5a50;
+    box-shadow: 8px  8px 16px rgba(0,0,0,0.8);
+    border-radius: 8px;
+    :hover{
+        background: #DBDCDD;
+    }
 `;
 
-export const ProjectsText = styled.div` 
-    margin-left: 5%;
-    margin-top: 20%;
-    padding-left: 90px;
+export const ProjectsText = styled.p` 
+    padding: 50px;
+    font-family: 'PoppinsRegular', sans-serif;
+    font-weight: 600;
 `;
 
 export const ProjectsImage = styled.img` 
-    display: inline-block;
-    margin-top: 130px;
-    width: 400px;
-    height: 400px;
-    margin-left: 68px;
-    border: solid #ef5a50;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
     border-radius: 22px;
 `;
 
-export const Comp = styled.a``;
+export const Comp = styled.a`
+    text-decoration: none;
+    color: rgb(53,51,51);
+`;

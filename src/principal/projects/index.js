@@ -1,7 +1,7 @@
 import React from "react";
 import { Title } from "./indexstyled";
-import NumberList from "../../components/listofprojects/Numberlist";
-import { ArrayProjects } from "../../components/listofprojects/Arrayprojects";
+import NumberList from "../../snipeds/listofprojects/Numberlist";
+import { ArrayProjects } from "../../snipeds/listofprojects/Arrayprojects";
 
 function Projects(){
     return(

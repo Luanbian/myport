@@ -5,14 +5,19 @@ export default function NumberList(props) {
   const ArrayProjects = props.ArrayProjects;
 
   const listItems = ArrayProjects.map((number) =>
-    <ProjectsAll key={number.id}>
+    <div data-aos="fade-right">
       <Comp href = {number.link} target="_blank">
-        <ProjectsImage src={number.img} alt="imagens dos projetos" />
+        <ProjectsAll key={number.id}>
+
+          <ProjectsImage src={number.img} alt="imagens dos projetos" />
+          
+          <ProjectsText>
+            {number.text}
+          </ProjectsText>
+          
+        </ProjectsAll>
       </Comp>
-      <ProjectsText>
-        {number.text}
-      </ProjectsText>
-    </ProjectsAll>
+    </div>
   );
 
   return <> {listItems} </>

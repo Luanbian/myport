@@ -15,7 +15,7 @@ import mysql from '../../styles/img/habilits/mysql.png';
 import mongo from '../../styles/img/habilits/mongodb.png';
 import native from '../../styles/img/habilits/react.png';
 import ImgSoft from '../../styles/img/habilits/softskills.png';
-import Earth from "../../components/sphere/sphere";
+import Earth from "../../snipeds/sphere/sphere";
 
 function Hability(){
     return(
