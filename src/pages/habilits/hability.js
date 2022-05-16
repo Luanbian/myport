@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import {Wait, Title, Description, Card, Intro, Topo, Imagehab} from './styledhabilits';
+import {Wait, Title, Description, Card, Intro, Topo, Imagehab, ContentHab} from './styledhabilits';
 import { Canvas } from '@react-three/fiber';
 import css from '../../styles/img/habilits/css3.png';
 import git from '../../styles/img/habilits/git.png';
@@ -33,16 +33,18 @@ function Hability(){
                     </Wait>
                 </Card>
             </Topo>
-            <Imagehab src={html} alt='html'/>
-            <Imagehab src={css} alt='css'/>
-            <Imagehab src={javascript} alt='javascript'/>
-            <Imagehab src={typescript} alt='typescript'/>
-            <Imagehab src={react} alt='react'/>
-            <Imagehab src={git} alt='git'/>
-            <Imagehab src={mysql} alt='mysql'/>
-            <Imagehab src={firebase} alt='firebase'/>
-            <Imagehab src={sass} alt='sass'/>
-            <Imagehab src={jest} alt='jest'/>
+            <ContentHab>
+                <Imagehab src={html} alt='html'/>
+                <Imagehab src={css} alt='css'/>
+                <Imagehab src={javascript} alt='javascript'/>
+                <Imagehab src={typescript} alt='typescript'/>
+                <Imagehab src={react} alt='react'/>
+                <Imagehab src={git} alt='git'/>
+                <Imagehab src={mysql} alt='mysql'/>
+                <Imagehab src={firebase} alt='firebase'/>
+                <Imagehab src={sass} alt='sass'/>
+                <Imagehab src={jest} alt='jest'/>
+            </ContentHab>
         </>
     )
 }

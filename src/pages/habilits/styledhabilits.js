@@ -38,5 +38,15 @@ export const Intro = styled.div`
 
 export const Imagehab = styled.img` 
    width: 90px;
-   padding: 20px
+   padding: 20px;
+   transition: transform 0.2s;
+   &:hover{
+      transform: scale(1.2);
+   }
+`;
+
+export const ContentHab = styled.div` 
+   display: flex;
+   justify-content: center;
+   margin-bottom: 25px;
 `;
