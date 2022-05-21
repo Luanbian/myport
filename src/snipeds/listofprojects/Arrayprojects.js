@@ -1,8 +1,9 @@
 import React from "react";
 import youtube from '../../styles/img/projects/youtube-page.jpg';
 import slu from '../../styles/img/projects/slu.jpeg';
-import earth from '../../styles/img/projects/earthJob.jfif';
 import netflix from '../../styles/img/projects/Netflix.png';
+import letmeask from '../../styles/img/projects/letmeask.svg';
+import move from '../../styles/img/projects/move.png';
 
 export const ArrayProjects = [
     {
@@ -19,14 +20,20 @@ export const ArrayProjects = [
     },
     {
         id: 3,
-        img: earth, 
-        text: <p style={{fontSize: '25px', fontFamily: 'PoppinsRegular'}}>Animação em 3D do planeta terra feito com react.js e three.js</p>,
-        link: "https://www.instagram.com/"
+        img: letmeask, 
+        text: <p style={{fontSize: '25px', fontFamily: 'PoppinsRegular'}}>Plataforma de perguntas e respostas com login, página de usuário e de admimistrador, feito com react e firebase</p>,
+        link: "https://letmeask-19edd.web.app/"
     },
     {
         id: 4,
         img: netflix, 
         text: <p style={{fontSize: '25px', fontFamily: 'PoppinsRegular'}}>Em breve, um clone da interface da Netflix usando react.js e typescript</p>,
-        link: "/hability"
+        link: "/"
+    },
+    {
+        id: 5,
+        img: move, 
+        text: <p style={{fontSize: '25px', fontFamily: 'PoppinsRegular'}}>Site construido com next.js baseado no método de estudos pomodoro, ou seja, um timer que revesa entre estudo e descanso com ganho de pontos e desafios para se exercitar </p>,
+    link: "https://move-it-tau-seven.vercel.app/"
     },
 ];
