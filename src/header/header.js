@@ -1,13 +1,24 @@
-import React from "react";
-import { Head, Ul, Li, Text, Imglogo} from './styleheader';
+import React, {useState} from "react";
+import { Head, Ul, Li, Text, Imglogo, Button} from './styleheader';
 import { Link } from "react-router-dom";
 import logo from '../styles/img/principal/luan.png';
-import { Menu } from "../components/Menu";
+import { MenuOn } from "../components/MenuOn";
+import { MenuOff } from "../components/MenuOff";
+
+
 function Header(){
+    const [navbarOpen, setNavbarOpen] = useState(true);
+
+    function handleToggle(){
+        setNavbarOpen(!navbarOpen)
+    }
+
     return(
         <Head>
             <Ul>
-                <Menu/>
+                <Button onClick={handleToggle}>
+                   {navbarOpen ? <MenuOn/> : <MenuOff/>} 
+                </Button>
                 <Li>
                     <Link to="/">  <Imglogo src={logo} alt="logo"/> </Link>
                 </Li>

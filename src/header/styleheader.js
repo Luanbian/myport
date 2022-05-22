@@ -8,35 +8,6 @@ export const Head = styled.div`
   height: 8vh;
 `;
 
-export const MenuToggle = styled.div` 
-  width: 40px;
-  height: 30px;
-  margin-top: 35px;
-  position: absolute;
-  margin-left: 30px;
-`;
-
-export const One = styled.div` 
-  background-color: #FFF;
-  height: 5px;
-  width: 100%;
-  margin: 6px auto;
-`;
-
-export const Two = styled.div` 
-  background-color: #FFF;
-  height: 5px;
-  width: 100%;
-  margin: 6px auto;
-`;
-
-export const Three = styled.div` 
-  background-color: #FFF;
-  height: 5px;
-  width: 100%;
-  margin: 6px auto;
-`;
-
 export const Ul = styled.ul`
   margin-left: 0px;
   padding-left: 0px;
@@ -77,4 +48,13 @@ export const Imglogo = styled.img`
   position:relative;
   top:30px;
   left:15px;
+`;
+
+export const Button = styled.button` 
+  border: none;
+  background-color: #1882c5;
+  
+  @media (min-width: 768px){
+    display: none;
+  }
 `;
