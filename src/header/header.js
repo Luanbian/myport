@@ -2,10 +2,12 @@ import React from "react";
 import { Head, Ul, Li, Text, Imglogo} from './styleheader';
 import { Link } from "react-router-dom";
 import logo from '../styles/img/principal/luan.png';
+import { Menu } from "../components/Menu";
 function Header(){
     return(
         <Head>
             <Ul>
+                <Menu/>
                 <Li>
                     <Link to="/">  <Imglogo src={logo} alt="logo"/> </Link>
                 </Li>

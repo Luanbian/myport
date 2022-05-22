@@ -1,11 +1,40 @@
 import styled from "styled-components";
+import {device} from '../styles/sizes/size';
 
 export const Head = styled.div`
   background-color: #1882c5;
   max-width: 100vw;
   width:100%;
-  margin-top: -1pc;
-  margin-bottom: 10pc;
+  height: 8vh;
+`;
+
+export const MenuToggle = styled.div` 
+  width: 40px;
+  height: 30px;
+  margin-top: 35px;
+  position: absolute;
+  margin-left: 30px;
+`;
+
+export const One = styled.div` 
+  background-color: #FFF;
+  height: 5px;
+  width: 100%;
+  margin: 6px auto;
+`;
+
+export const Two = styled.div` 
+  background-color: #FFF;
+  height: 5px;
+  width: 100%;
+  margin: 6px auto;
+`;
+
+export const Three = styled.div` 
+  background-color: #FFF;
+  height: 5px;
+  width: 100%;
+  margin: 6px auto;
 `;
 
 export const Ul = styled.ul`
@@ -21,6 +50,10 @@ export const Li = styled.li`
   padding-top: 2%;
   position: relative;
   top: -1.5pc;
+
+  @media ${device.tablet}{
+    display: none;
+  } 
 `;
 
 export const Text = styled.button`
