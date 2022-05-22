@@ -6,20 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/*
-body::-webkit-scrollbar{
-  width: 20px;
+
+html{
+  font-size: 62.5%
 }
 
-::-webkit-scrollbar-track{
-  background: aqua;
-}
-
-::-webkit-scrollbar-thumb{
-  background: #2e9dd8;
-  border-radius: 8px;
-}
-*/
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
 }

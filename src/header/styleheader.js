@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Head = styled.div`
   background-color: #1882c5;
+  max-width: 100vw;
   width:100%;
   margin-top: -1pc;
   margin-bottom: 10pc;
@@ -16,21 +17,21 @@ export const Ul = styled.ul`
 
 export const Li = styled.li`
   display: inline-block;
-  padding-left: 30px;
-  padding-top: 20px;
+  padding-left: 2%;
+  padding-top: 2%;
   position: relative;
   top: -1.5pc;
 `;
 
 export const Text = styled.button`
   color: white;
-  font-size: 20px;
+  font-size: 2rem;
   font-family: 'PoppinsRegular';
   background-color: #ef5a50;
   border-radius: 10px;
-  padding: 7.5px;
+  padding: 7px;
   width: 100%;
-  height: 60px;
+  height: auto;
   transition: all .5s;
   :hover{
     cursor: pointer;
