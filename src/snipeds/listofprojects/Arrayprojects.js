@@ -1,21 +1,21 @@
 import React from "react";
-import youtube from '../../styles/img/projects/youtube-page.jpg';
 import slu from '../../styles/img/projects/slu.jpeg';
 import netflix from '../../styles/img/projects/Netflix.png';
 import letmeask from '../../styles/img/projects/letmeask.svg';
-import move from '../../styles/img/projects/move.png';
+import youtube from '../../styles/img/projects/youtube.svg';
+import move from '../../styles/img/projects/move.svg';
 
 export const ArrayProjects = [
     {
-        id: 1, 
-        img : youtube,
-        text: <p style={{fontSize: '25px', fontFamily: 'PoppinsRegular'}}>Um clone da interface do youtube usando React.js</p>,
+        id: 1,
+        img: youtube, 
+        text: <p style={{fontSize: '25px', fontFamily: 'PoppinsRegular'}}> Clone do youtube feito com React.js para desenvolver minhas habilidades de recriar um design pronto e complexo </p>,
         link: "https://youtube-styled-components.vercel.app/"
     },
     {
         id: 2,
         img: slu, 
-        text: <p style={{fontSize: '25px', fontFamily: 'PoppinsRegular'}}>Site desenvolvido para uma vaga na Saint Louis University</p>,
+        text: <p style={{fontSize: '25px', fontFamily: 'PoppinsRegular'}}>Site desenvolvido para uma vaga na Saint Louis University com HTML, CSS e Javascript</p>,
         link: "https://luanbian.github.io/WhySlu/"
     },
     {

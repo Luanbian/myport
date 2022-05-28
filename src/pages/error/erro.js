@@ -1,6 +1,6 @@
 import React from "react";
 import Imgerror from '../../styles/img/error/error.svg';
-import {Imgfundo, Title, Description, Card, Content} from './stylederro';
+import {Imgfundo, Title, Description, Content} from './stylederro';
 import {BackHead} from '../contact/emailstyled';
 function Erro(){
     return(
@@ -8,10 +8,13 @@ function Erro(){
            <BackHead></BackHead> 
            <Content>
             <Imgfundo src={Imgerror} alt="img-undraw-error"/>
-            <Card>
+            <div>
                 <Title>vish...</Title>
-                <Description>Parece que você explorou bem longe,<br/> use o menu acima para voltar a navegar</Description>
-            </Card>
+                <Description>
+                    Parece que você explorou bem longe,<br/> 
+                    use o menu acima para voltar a navegar
+                </Description>
+            </div>
             </Content>
         </>
     )

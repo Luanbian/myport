@@ -30,9 +30,8 @@ export const ProjectsText = styled.p`
 `;
 
 export const ProjectsImage = styled.img` 
-    width: 300px;
-    height: 300px;
-    padding: 10px;
+    width: 35%;
+    padding: 5%;
     border-radius: 22px;
 `;
 

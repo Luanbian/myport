@@ -21,7 +21,3 @@ export const Description = styled.h2`
     font-family: 'PoppinsRegular';
     font-size: 2.0rem;
 `;
-
-export const Card = styled.div`
-
-`;
