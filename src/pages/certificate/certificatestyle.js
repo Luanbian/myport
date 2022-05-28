@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const Context = styled.div`
+    margin-top: 12%;
+    margin-bottom: 8%;
+`;
+
 export const Imgjh = styled.img`
     width: 650px;
     height: 550px;
