@@ -1,7 +1,7 @@
 import React from "react";
-import {ProjectsImage, ProjectsAll, ProjectsText, Comp} from "../../principal/projects/indexstyled";
+import {ProjectsImage, ProjectsAll, ProjectsText, Comp} from "../principal/projects/indexstyled";
 
-export default function NumberList(props) {
+export default function ProjectList(props) {
   const ArrayProjects = props.ArrayProjects;
 
   const listItems = ArrayProjects.map((number) =>

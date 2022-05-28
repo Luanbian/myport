@@ -1,6 +1,6 @@
 import React from "react";
 import { Title } from "./indexstyled";
-import NumberList from "../../snipeds/listofprojects/Numberlist";
+import ProjectList from "../../components/ProjectList";
 import { ArrayProjects } from "../../snipeds/listofprojects/Arrayprojects";
 
 function Projects(){
@@ -9,7 +9,7 @@ function Projects(){
             <Title>
                 Meus projetos!
             </Title>
-            <NumberList ArrayProjects={ArrayProjects}/>
+            <ProjectList ArrayProjects={ArrayProjects}/>
         </>
     );
 }
