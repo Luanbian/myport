@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
-import {Wait, Title, Description, Card, Intro, Topo, Imagehab, ContentHab, CardHab, ColumOne} from './styledhabilits';
+import {Wait, Title, Description, Card, Intro, Topo, Imagehab, ContentHab, CardHab, ColumOne, DescriptionTopo} from './styledhabilits';
+import {BackHead} from '../../pages/contact/emailstyled';
 import { Canvas } from '@react-three/fiber';
 import css from '../../styles/img/habilits/css3.png';
 import git from '../../styles/img/habilits/git.png';
@@ -16,12 +17,13 @@ import Earth from "../../snipeds/sphere/sphere";
 function Hability(){
     return(
         <>
+            <BackHead></BackHead>
             <Topo>
                 <Intro>
                     <Title> Habilidades </Title>
-                    <Description>
+                    <DescriptionTopo>
                         Minha Habilidades giram em torno do Javascript por ser uma linguagem muito poderosa, para o front-end eu gosto muito do react.js, para o back-end considero muito o uso do node.js e quando o assunto é mobile o react-native resolve!
-                    </Description>
+                    </DescriptionTopo>
                 </Intro>
                 <Card>
                     <Wait>

@@ -1,10 +1,9 @@
 import styled from 'styled-components';
+import {device} from '../../styles/sizes/size';
 
 export const Wait = styled.div` 
-   position: relative;
    width: 400px;
    height: 400px;
-   margin-right: 30px;
 `;
 
 export const Topo = styled.div` 
@@ -12,18 +11,27 @@ export const Topo = styled.div`
 `;
 
 export const Title = styled.h1` 
-   font-size: 50px;
-   margin-top: -50px;
+   font-size: 5.0rem;
    font-family: 'PoppinsBold';
    text-decoration: underline;
    color: rgb(65, 63, 63);
 `;
 
 export const Description = styled.p` 
-   font-size: 30px;
+   font-size: 3.0rem;
    font-family: 'PoppinsRegular';
    width: 90%;
-   text-indent: 10px;
+   text-indent: 15px;
+   padding: 15px;
+   text-align: center;
+`;
+
+export const DescriptionTopo = styled.p` 
+   font-size: 3.0rem;
+   font-family: 'PoppinsRegular';
+   width: 90%;
+   text-indent: 15px;
+   padding: 15px;
 `;
 
 export const Card = styled.div` 
@@ -44,12 +52,15 @@ export const Imagehab = styled.img`
 
 export const ContentHab = styled.ul` 
    display: flex;
-   gap: 90px;
    justify-content: center;
+   gap: 90px;
    flex-direction: row;
-   margin-top: 95px;
-   margin-left: -1rem;
-   margin-bottom: 25px;
+   margin-top: 5%;
+   margin-bottom: 5%;
+
+   @media ${device.tablet}{
+      flex-direction: column;
+   }
 `;
 
 export const CardHab = styled.div` 
@@ -64,6 +75,10 @@ export const CardHab = styled.div`
    cursor: pointer;
    :hover{
       transform: scale(1.1);
+   }
+
+   @media ${device.tablet}{
+      width: auto;
    }
 `;
 
