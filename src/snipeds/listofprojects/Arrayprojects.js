@@ -27,7 +27,7 @@ export const ArrayProjects = [
     {
         id: 4,
         img: netflix, 
-        text: <p style={{fontSize: '25px', fontFamily: 'PoppinsRegular'}}>Em breve, um clone da interface da Netflix usando react.js e typescript</p>,
+        text: <p style={{fontSize: '25px', fontFamily: 'PoppinsRegular'}}>Em breve, um clone da interface da Netflix usando Next.js e Typescript</p>,
         link: "/"
     },
     {

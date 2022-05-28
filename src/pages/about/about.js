@@ -28,11 +28,8 @@ function About(){
                 Experiência profissional
             </Tittle>
             <All>
-                <div data-aos="fade-right">
-                    <ImgAgathos src={Agathos} alt="logo-agathos"/>
-                </div>
+                <ImgAgathos src={Agathos} alt="logo-agathos"/>
                 <CardExp>
-                    <div data-aos="fade-left">
                         <Vaga>Programador Javascript</Vaga>
                         <Data>
                             2021
@@ -42,7 +39,6 @@ function About(){
                         <Description>
                             Fui responsável por manter uma solução excelente para uma escola durante a pandemia, criei junto a uma equipe atividades online para os alunos, utilizando principalmente Javascript e um software chamado Tumult hype.
                         </Description>
-                    </div>
                 </CardExp>
             </All>
         </>
