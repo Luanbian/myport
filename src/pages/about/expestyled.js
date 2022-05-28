@@ -7,6 +7,7 @@ export const Tittle = styled.h1`
     font-family: 'PoppinsBold';
     text-decoration: underline;
     color: rgb(53, 51, 51);
+    font-size: 5.2rem;
 `;
 
 export const All = styled.div` 
@@ -26,17 +27,17 @@ export const ImgAgathos = styled.img`
 export const CardExp = styled.div` 
     display: inline-block;
     margin-left: 15%;
-    margin-top: -30px;
+    margin-top: -3%;
 `;
 
 export const Vaga = styled.h2` 
-    font-size: 36px;
+    font-size: 3.6rem;
     font-family: 'PoppinsRegular';
 `;
 
 export const Data = styled.p` 
     display: flex;
-    font-size: 26px;
+    font-size: 2.6rem;
     padding: 15px;
     font-family: 'PoppinsRegular';
 `;
@@ -50,6 +51,5 @@ export const Line = styled.div`
 
 export const Description = styled.p` 
     font-family: 'PoppinsRegular';
-    font-size: 23px;
-    width: 600px;
+    font-size: 2.3rem;
 `;

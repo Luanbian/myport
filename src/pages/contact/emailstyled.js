@@ -16,7 +16,7 @@ export const Inputname = styled.input`
     border-radius: 5px;
     margin: 5px;
     height: 50px;
-    font-size: 20px;
+    font-size: 2.0rem;
     margin-bottom: 40px;
 `;
 
@@ -31,7 +31,7 @@ export const Inputemail = styled.input`
 export const Textarea = styled.textarea`
     border-radius: 5px;
     margin: 5px;
-    font-size: 20px;
+    font-size: 2.0rem;
     height: 42%;
     resize: none;
 `;

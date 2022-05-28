@@ -1,16 +1,15 @@
 import React from "react";
-import {Imgper, Text, Context, CardFront, Title, Imgfundo, TextB} from './aboutstyled';
+import {Imgper, Text, Context, CardFront, Title, TextB, Principal} from './aboutstyled';
 import {Tittle, ImgAgathos, CardExp, Vaga, Data, Description, Line, All} from './expestyled';
 import imgper from '../../styles/img/about/aboutmeper.png';
-import imgfundo from '../../styles/img/about/fundo.jpg';
 import Agathos from '../../styles/img/about/agathos.png';
 
 function About(){
     return(
         <>
-            <Imgfundo src={imgfundo}/>
-            <Imgper src={imgper} />
-            <Context>
+            <Principal>
+                <Imgper src={imgper} />
+                <Context>
                     <CardFront>
                         <Title>
                             Sobre mim
@@ -23,7 +22,8 @@ function About(){
                             Aprendi muito sobre Design e programação para ser capaz de criar um front-end muito bem feito e melhorei muito minha lógica e uso de banco de dados e APIs para fazer um back-end excelente!
                         </Text>
                     </CardFront>
-            </Context>
+                </Context>
+            </Principal>
             <Tittle>
                 Experiência profissional
             </Tittle>
