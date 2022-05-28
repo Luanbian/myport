@@ -1,5 +1,5 @@
 import React from "react";
-import {IconsMedia, Button, In, SocialMedia, Total, Comp} from './contactstyled';
+import {IconsMedia, Button, In, SocialMedia, Total, Comp, ImgUnDraw} from './contactstyled';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -10,7 +10,7 @@ function Contact(){
   return(
     <>
       <Total>
-        <img src={contactus} alt="undraw-contact-us" />
+        <ImgUnDraw src={contactus} alt="undraw-contact-us" />
         <IconsMedia>
           <SocialMedia>
             <Button>
@@ -35,6 +35,7 @@ function Contact(){
           </SocialMedia>
         </IconsMedia>
       </Total>
+
       <Email/>
     </>
   )

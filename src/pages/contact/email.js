@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Title, Inputname, Inputenviar, Inputemail, Textarea, Campos} from './emailstyled';
+import {Card, Title, Inputname, Inputenviar, Inputemail, Textarea, Campos, BackHead} from './emailstyled';
 import PersonIcon from '@material-ui/icons/Person';
 import TextsmsIcon from '@material-ui/icons/Textsms';
 import EmailIcon from '@material-ui/icons/Email';
@@ -7,6 +7,7 @@ import EmailIcon from '@material-ui/icons/Email';
 function Email(){
     return(
         <>
+            <BackHead></BackHead>
             <Card>
                 <form action="https://api.staticforms.xyz/submit" method="post">
                     <input type="hidden" name="accessKey" value="0df9efde-d3a4-4ac9-aaf6-b1b6e6a2bf1b"/>

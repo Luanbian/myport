@@ -1,29 +1,12 @@
-import styled, { keyframes } from "styled-components";
-
-const typing = keyframes`
-    from {width: 0}
-    to {width:40%}
-`;
-
-const blinkAnimation = keyframes`
-    from, to {border-color: transparent}
-    50% { border-color: #00D8FF}
-`;
+import styled from "styled-components";
 
 export const Title = styled.div`
     color: rgb(53, 51, 51);
     font-family: 'PoppinsBold';
-    font-size: 45px;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: .15em solid green;
+    font-size: 4.5rem;
     margin: 0 auto;
-    margin-bottom: 0px;
     letter-spacing: .15em;
-    animation: 
-        ${typing} 3.5s steps(30, end) infinite,
-        ${blinkAnimation} .5s step-end infinite
-    ;
+    text-align: center;
 `;
 
 export const ProjectsAll = styled.div` 
@@ -34,6 +17,7 @@ export const ProjectsAll = styled.div`
     border: 1px solid #ef5a50;
     box-shadow: 8px  8px 16px rgba(0,0,0,0.8);
     border-radius: 8px;
+    height: auto;
     :hover{
         background: #DBDCDD;
     }

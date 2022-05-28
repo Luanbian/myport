@@ -1,20 +1,15 @@
 import styled from 'styled-components';
 
 export const Card = styled.div`
-    width: 600px;
-    height: 670px;
-    margin-left: 8%;
-    margin-top: -6%;
+    margin-left: 5%;
+    margin-top: 90px;
 `;
 
 export const Title = styled.h1`
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
+    font-size: 3.5rem;
     color: rgb(65, 63, 63);
     font-family: 'PoppinsBold';
     text-decoration: underline;
-    margin-left: -100px;
 `;
 
 export const Inputname = styled.input` 
@@ -65,4 +60,11 @@ export const Campos = styled.div`
     border-bottom-left-radius: 22px;
     border-bottom-right-radius: 22px;
     padding: 8px;
+`;
+
+export const BackHead = styled.div` 
+    background-color: #1882c5;
+    max-width: 100vw;
+    width: 100%;
+    height: 60px;
 `;

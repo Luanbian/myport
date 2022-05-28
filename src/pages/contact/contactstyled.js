@@ -13,8 +13,8 @@ export const Button = styled.button`
     margin: 15px;
     background-color: #e6e6e6;
     border-radius: 22px;
-    color:#6c63ff;
-    cursor:pointer;
+    color: #6c63ff;
+    cursor: pointer;
     transition: all 1s;
     :hover{
         transform: rotateZ(-360deg) 
@@ -22,7 +22,7 @@ export const Button = styled.button`
 `;
 
 export const In = styled.i`
-    z-index:10;
+    z-index: 10;
     position: relative;
 `;
 
@@ -33,10 +33,14 @@ export const SocialMedia = styled.div`
 export const Total = styled.div` 
     display: flex;
     flex-direction: column;
-    width: 50%;
     float: right;
-    margin-top: -7%;
-    margin-right: 6%;
+    margin-top: 5%;
 `;
 
-export const Comp = styled.a``;
+export const Comp = styled.a`
+    text-decoration: none;
+`;
+
+export const ImgUnDraw = styled.img` 
+
+`;
