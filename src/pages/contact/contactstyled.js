@@ -1,10 +1,14 @@
 import styled from 'styled-components';
+import {device} from '../../styles/sizes/size';
 
 export const IconsMedia = styled.div`
     display: flex;
     flex-direction: row;
     margin-top: 3%;
     margin-left: 40%;
+    @media ${device.mobileL}{
+        flex-direction: column;
+    }
 `;
 
 export const Button = styled.button`
@@ -42,5 +46,7 @@ export const Comp = styled.a`
 `;
 
 export const ImgUnDraw = styled.img` 
-
+    @media ${device.laptopL}{
+        width: 100vw;
+    }
 `;

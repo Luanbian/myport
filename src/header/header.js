@@ -31,9 +31,6 @@ function Header(){
                 <Li>                
                     <Link to="/hability"> <Text> Habilidades </Text> </Link>   
                 </Li>
-                <Li> 
-                    <Link to="/certificate"> <Text> Certificados </Text> </Link>  
-                </Li>
             </Ul>
         </Head>
     );
