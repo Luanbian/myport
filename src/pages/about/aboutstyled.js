@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../styles/sizes/size";
 
 export const Principal = styled.div` 
     background-color: #1882c5;
@@ -7,6 +8,9 @@ export const Principal = styled.div`
 
 export const Imgper = styled.img`
     margin-top: 5%;
+    @media ${device.mobileS}{
+        display: none;
+    }
 `;
 
 export const CardFront = styled.div`
@@ -22,6 +26,7 @@ export const Context = styled.div`
     margin-bottom: 2%;
     box-shadow: 10px 10px 12px gray;
     background-color: rgba(30,33,49,0.7);
+    width: 100vw;
 `;
 
 export const Text = styled.p`

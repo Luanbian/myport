@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {device} from '../../styles/sizes/size'
 
 export const Title = styled.div`
     color: rgb(53, 51, 51);
@@ -21,18 +22,23 @@ export const ProjectsAll = styled.div`
     :hover{
         background: #DBDCDD;
     }
+    
 `;
 
 export const ProjectsText = styled.p` 
     padding: 50px;
     font-family: 'PoppinsRegular', sans-serif;
     font-weight: 600;
+    font-size: 1.6rem;
 `;
 
 export const ProjectsImage = styled.img` 
     width: 35%;
     padding: 5%;
     border-radius: 22px;
+    @media ${device.mobileS}{
+        display: none ;
+    }
 `;
 
 export const Comp = styled.a`

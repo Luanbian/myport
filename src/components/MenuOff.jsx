@@ -12,6 +12,7 @@ export function MenuOff(){
 
             <Container>
                 <List>
+                    <Link to="/"> <Text> Projetos </Text> </Link>    
                     <Link to="/about"> <Text> Sobre mim </Text> </Link>    
                     <Link to="/contact"> <Text> Contatos </Text> </Link>         
                     <Link to="/hability"> <Text> Habilidades </Text> </Link>   

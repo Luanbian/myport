@@ -8,22 +8,26 @@ export const Wait = styled.div`
 
 export const Topo = styled.div` 
    display: flex;
+   @media ${device.mobileS}{
+      flex-direction: column;
+   }
 `;
 
 export const Title = styled.h1` 
-   font-size: 5.0rem;
+   font-size: 4.5rem;
    font-family: 'PoppinsBold';
    text-decoration: underline;
    color: rgb(65, 63, 63);
 `;
 
 export const Description = styled.p` 
-   font-size: 3.0rem;
+   font-size: 2.6rem;
    font-family: 'PoppinsRegular';
-   width: 90%;
-   text-indent: 15px;
    padding: 15px;
    text-align: center;
+   @media ${device.mobileS}{
+      margin-left: -50px;
+   }
 `;
 
 export const DescriptionTopo = styled.p` 
@@ -32,11 +36,6 @@ export const DescriptionTopo = styled.p`
    width: 90%;
    text-indent: 15px;
    padding: 15px;
-`;
-
-export const Card = styled.div` 
-   display: flex;
-   flex-direction: row;
 `;
 
 export const Intro = styled.div` 

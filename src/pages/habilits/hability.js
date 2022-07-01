@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import {Wait, Title, Description, Card, Intro, Topo, Imagehab, ContentHab, CardHab, ColumOne, DescriptionTopo} from './styledhabilits';
+import {Wait, Title, Description, Intro, Topo, Imagehab, ContentHab, CardHab, ColumOne, DescriptionTopo} from './styledhabilits';
 import {BackHead} from '../../pages/contact/emailstyled';
 import { Canvas } from '@react-three/fiber';
 import css from '../../styles/img/habilits/css3.png';
@@ -25,7 +25,7 @@ function Hability(){
                         Minha Habilidades giram em torno do Javascript por ser uma linguagem muito poderosa, para o front-end eu gosto muito do react.js, para o back-end considero muito o uso do node.js e quando o assunto é mobile o react-native resolve!
                     </DescriptionTopo>
                 </Intro>
-                <Card>
+                <div>
                     <Wait>
                         <Canvas>
                             <Suspense fallback={null}>
@@ -33,7 +33,7 @@ function Hability(){
                             </Suspense>
                         </Canvas>
                     </Wait>
-                </Card>
+                </div>
             </Topo>
             <ContentHab>
                 <ColumOne>

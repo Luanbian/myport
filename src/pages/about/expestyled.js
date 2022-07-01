@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../../styles/sizes/size';
 
 export const Tittle = styled.h1` 
     display: flex;
@@ -13,6 +14,7 @@ export const Tittle = styled.h1`
 export const All = styled.div` 
     display: flex;
     flex-direction: row;
+    width: 100vw;
 `;
 
 export const ImgAgathos = styled.img` 
@@ -22,6 +24,9 @@ export const ImgAgathos = styled.img`
     margin-left: 60px;
     margin-bottom: 45px;
     border: #ef5a50 solid;
+    @media ${device.mobileS}{
+        display: none;
+    }
 `;
 
 export const CardExp = styled.div` 
